@@ -1,0 +1,36 @@
+
+
+@media (max-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 10px;
+    }
+    
+    .product-title {
+      font-size: 13px;
+    }
+    
+    .discounted-price {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-grid {
+    
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 5px;
+    }
+  }
+  
+  /* base device css   */
+    /* .product-container {
+      border: 2px solid darkblue;
+    } */
+    
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
