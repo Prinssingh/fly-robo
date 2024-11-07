@@ -53,7 +53,7 @@ const Card = (props) => {
                   </span>
 
                   {items.steacker > 0 ? (
-                    <div className="steack">Ne</div>
+                    <div className="steack">New</div>
                   ) : null}
 
                   <div className="mt-2 ms-2">
