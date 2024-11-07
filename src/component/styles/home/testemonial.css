@@ -76,7 +76,7 @@
     display: flex;
     justify-content: center;
     /* color: rgb(176, 121, 228); */
-    line-height-step: initial;
+    /* line-height-step: initial; */
 }
 
 .name {
@@ -85,8 +85,8 @@
     margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
-    color: transparent;
-    background: linear-gradient(red, blue, yellow);
+    color: black;
+    /* background: linear-gradient(red, blue, yellow); */
     background-clip: text;
 
 }

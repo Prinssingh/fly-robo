@@ -1,3 +1,129 @@
+/* copy card */
+.container{
+    /* border: 2px solid red; */
+    max-width: 80rem;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    /* display: flex; */
+    /* gap: 5px; */
+}
+.container .card {
+	position: relative;
+	min-height: 34.4vh;
+	max-height: 34.4vh;
+    width: 11.3rem;
+    height: 34.4rem;
+   max-width:11.3rem;
+    min-width: 11.3rem;
+	background: white;
+	margin: 2px;
+	/* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); */
+	/* border-radius: 5px; */
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+    border: 1px rgb(173, 172, 172) solid;
+}
+.container .card:hover {
+    border: 1px solid rgb(76, 185, 236);
+	box-shadow: 0 1px 3px rgba(76, 185, 236);
+
+    overflow: hidden;
+}
+
+.container .card .content {
+	/* position: relative; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 11.1rem;
+	height: 190px;
+	overflow: hidden;
+    /* border: 2px solid yellow;    */
+    margin-top: 19px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container .card .content .imgBx img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+}
+.container .card .content .contentBx{
+    /* border: 2px white solid; */
+    width: 9.5rem;
+}
+
+.container .card .content .contentBx h3 {
+	color: #141313;
+	text-transform: uppercase;
+	/* letter-spacing: 2px; */
+	font-weight: 500;
+	font-size: 18px;
+	text-align: start;
+	margin: 2px 0 3px;
+    margin-left: 5px;
+	line-height: 1em;
+    margin-top: 5px;
+}
+
+
+
+.container .card .sci {
+	/* position: absolute; */
+	/* bottom: 50px; */
+    width: 11rem;
+    height: 2rem;
+	display: flex;
+    /* border: 1px red solid; */
+    gap: 3px;
+    color: rgb(20, 19, 19);
+	list-style: none;
+}
+
+.container .card .sci span {
+	list-style: none;
+	/* margin: 0 10px; */
+	font-weight: bold;
+    color: rgb(221, 16, 16);
+   
+}
+.container .card .sci .span1{
+    list-style: none;
+    font-weight: bold;
+    color: rgb(20, 19, 19)
+}
+
+
+
+
+
+
+
+
+
+/* 
+.card-main-container{
+    border: 2px red;
+    background-color: yellow;
+    max-width: 80rem;
+} */
 .mainHeader {
     margin-top: 1rem;
 }
@@ -9,106 +135,76 @@
 }
 
 
-.Border-Box {
-    /* border: 2px solid red; */
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-    width: 80.1vw;
-    max-width: 80rem;
-    height: 15rem;
-    display: flex;
-    gap: 0.8rem;
-    /* gap: 3rem; */
-    overflow: hidden;
 
-    /* overflow-x: scroll; */
-}
 
-.CardFetured {
-    position: relative;
-    flex-wrap: wrap;
-    border: 1px solid rgb(248, 236, 214);
-    height: 30vh;
-    width: 10rem;
-    border-radius: 6px;
-    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.0);
-    transition: transform 0.3s ease;
-    overflow: hidden;
-}
 
 .steack {
-    display: flex;
-
-    justify-content: center;
-    justify-items: center;
-    position: absolute;
-    background-color: rgba(53, 9, 250, 0.945);
-    width: 2.5rem;
-    height: 1.5rem;
-    right: 0rem;
-    left: 7vw;
-    top: 6px;
-    font-weight: bold;
-    font-size: 0.8rem;
-    border-radius: 5px;
-    color: #dddcd9;
-    padding: 3px;
-    /* transform: rotate(320deg); */
+ position: absolute;
+  top: 4px;
+  left: 123px;
+  background-color: #5c25f1; /* Red background */
+  color: white;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10;
 }
 
-.CardFetured:hover .zoomicon {
+.card:hover .zoomicon {
     display: block !important;
 }
 
 .zoomicon {
     display: none !important;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     background-color: #3509fa;
     width: 2rem;
     height: 2rem;
     right: 0;
-    left: 3.6vw;
-    top: 3.6rem;
+    left: 4vw;
+    top: -5rem;
     font-weight: bolder;
     border-radius: 100px;
     color: wheat;
     padding: 3px;
+    /* border: 2px solid red; */
+    overflow: hidden;
+
 }
 
 .zoomicon .zoom-icon-in {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 3.5px;
     margin-left: 3px;
+
+    /* background-color: #5c25f1; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* padding: 3px 10px; */
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 10;
 }
 
 .zoomicon title {
     color: red;
 }
 
-.CardFetured img {
-    background-size: contain;
-    /* width: 17rem; */
-    width: 100%;
-    border-radius: 6px;
-    height: auto;
 
-}
 
-.CardFetured :hover img {
+/* .CardFet :hover img {
     -webkit-transform: scale(1.3);
     transform: scale(1.1);
 
-    &:hover {
-        box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.0);
-
-    }
-}
+   
+} */
 
 .Descreption {
     overflow: hidden;
@@ -117,6 +213,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 
 /* Mobile    */
 
@@ -132,28 +229,8 @@
         border: 1px solid orange;
         width: 6rem;
     }
-    .Border-Box {
-        /* border: 2px solid #2600ff; */
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin-top: 5px;
-        width: 91vw;
-        height: 15rem;
-        display: flex;
-        overflow: hidden;
-        margin-top: 1rem;
-    }
-    .CardFetured {
-        position: relative;
-        flex-wrap: wrap;
-        border: 1px solid rgb(248, 236, 214);
-        height: 30vh;
-        width: 10rem;
-        border-radius: 6px;
-        box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.0);
-        transition: transform 0.3s ease;
-        overflow: hidden;
-    }
+   
+    
     .steack {
         display: flex;
         justify-content: center;
@@ -172,7 +249,7 @@
         padding: 3px;
         /* transform: rotate(320deg); */
     }
-    .CardFetured:hover .zoomicon {
+    .Card:hover .zoomicon {
         display: block !important;
     }
     .zoomicon {
@@ -205,20 +282,8 @@
     background-color: yellow;
     border: 1px solid red;
 } */
-    .CardFetured img {
-        background-size: contain;
-        /* width: 17rem; */
-        width: 100%;
-        border-radius: 6px;
-        height: auto;
-    }
-    .CardFetured :hover img {
-        -webkit-transform: scale(1.3);
-        transform: scale(1.1);
-        &:hover {
-            box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.0);
-        }
-    }
+    
+    
     .Descreption {
         overflow: hidden;
         display: block;
