@@ -1,0 +1,41 @@
+
+.img{
+    background-size: cover;
+    
+    height: 450px;
+    border-radius: 15px;
+}
+.curoseldiv{
+    background-size: cover;
+    /* border: 2px solid red; */
+    display: flex;
+    width: 935px;
+    height: 450px;
+    border-radius: 15px;
+}
+@media only screen and (max-width:600px) {
+  
+.img{
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    border-radius: 15px;
+}
+
+.curoseldiv{
+    background-size: cover;
+    /* border: 2px solid red; */
+    display: flex;
+    width: 35.5rem;
+    height: 17rem;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 6px;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    flex-wrap: wrap;
+} 
+
+
+}
