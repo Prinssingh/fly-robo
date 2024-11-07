@@ -1,0 +1,149 @@
+
+/* Curosal left section */
+.curosal{
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* border: 1px solid rgb(16, 17, 16); */
+    width: 80rem;
+    justify-content: space-between;
+    height: fit-content;
+    margin-top: 1rem;
+    max-width: 85rem;
+}
+
+/* Curosal right section */
+
+.Curosalmaindiv{
+    /* border: 2px solid rgb(86, 250, 94); */
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+/* destination section */
+
+.destination{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 14rem;
+    display: inline-flex;
+
+}
+
+/* Card  section */
+/* Fetured ke liye use bhi hua hai */
+
+.cardComponent{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: fit-content;
+}
+.Quick-Pick{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid rgb(233, 194, 22); */
+    width: 100%;
+    height: fit-content;
+}
+.testemonial{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: fit-content;   
+}
+.productdetail{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: fit-content;  
+}
+
+
+
+@media screen and (max-width:600px) {
+ 
+/* Curosal left section */
+.curosal{
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* border: 3px solid rgb(16, 17, 16); */
+    width: 80rem;
+    justify-content: space-between;
+    height: fit-content;
+    margin-top: 1rem;
+
+}
+
+/* Curosal right section */
+
+.Curosalmaindiv{
+    /* border: 2px solid rgb(86, 250, 94); */
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+/* destination section */
+
+.destination{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 14rem;
+    display: inline-flex;
+
+}
+
+/* Card  section */
+/* Fetured ke liye use bhi hua hai */
+
+.cardComponent{
+    /* display: flex; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 20rem;
+    margin-top: 7rem;
+}
+.Quick-Pick{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+}
+.testemonial{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: fit-content;   
+}
+.productdetail{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: fit-content;  
+}   
+}
