@@ -1,6 +1,6 @@
-// import logo from "./logo.svg";
+import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter, Route,  Routes } from "react-router-dom";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
@@ -20,7 +20,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
-          </Routes>
+        </Routes>
       </main>
 
       <footer>

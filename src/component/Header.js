@@ -37,20 +37,20 @@ export default class Header extends React.Component {
                 <div className="icon-list">
                   <ul className="action-item">
                     <li className="hover">
-                      <Link to="/" className="link">
+                      <Link to="/pages/account/account/Account" className="link">
                         <i className="fas fa-user"></i>
 
                         <span>Login</span>
                       </Link>
                     </li>
                     <li className="hover">
-                      <Link to="/" className="link">
+                      <Link to="/account/register " className="link">
                         <i className="fas fa-pencil-alt"></i>
                         <span>Register</span>
                       </Link>
                     </li>
                     <li className="wish-hover">
-                      <Link to="/" className="link watlist">
+                      <Link to="/pages/account/account/Account" className="link watlist">
                         <i class="fa fa-heart"></i>
                         <span>wishlist</span>
                       </Link>
