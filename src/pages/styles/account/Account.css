@@ -22,19 +22,21 @@
 
 
 .account-container {
-
+margin-top: 2%;
 background-color: #fff;
 
 }  
 
 .section-container {
+
   max-width: 1280px;
   margin: 0 auto;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 display: flex;
 gap: 20px;
 /* background-color: #002266; */
-
+justify-content: center;
+align-items: center;
 }
 
 .section-1 {
@@ -49,7 +51,7 @@ width: 47%;
 .section-1 .btn{
 background-color: #002266;
 color: #fff;
-margin-top: 4.75rem;
+margin-top: 15%;
 }
 
 
@@ -137,13 +139,29 @@ text-align: center;
 
 margin-top: 10px;
 }
+
+.google-btn{
+  display: inline-block;
+  padding: 0.625rem;
+  width: 50%;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #db4437;
+  border: none;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
 .google-btn i {
 margin-right: 5px;
 }
 
 
 .section-google-btn{
-max-width: 80rem;
-justify-self: center;
+width: 100%;
+margin-top: 4%;
+display: flex;
+justify-content: center;
 align-items: center;
 }
