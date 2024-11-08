@@ -6,7 +6,11 @@ class BlogList extends Component {
     state = {  } 
     render() { 
         return (
+<<<<<<< HEAD
             <div className="" >
+=======
+            <div className=" " >
+>>>>>>> shubhashni
                <div className="d-flex justify-content-between">
                 <div >
                     < CardList/>
