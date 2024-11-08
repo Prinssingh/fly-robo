@@ -14,8 +14,8 @@ const Card = ({item}) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 2,
+    slidesToShow: 7,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
@@ -106,7 +106,7 @@ const Card = ({item}) => {
           })}
           <div className="line"></div>
         </div>
-      <div class="container">
+      <div class="container-card">
       <Slider {...settings}>
 {item.map((items)=>{
   return (
@@ -119,12 +119,13 @@ const Card = ({item}) => {
             src={items.image} alt="img"/>
 					</div>
           
-          {/* <span className="zoomicon">
+          <span className="zoomicon">
                     <AiOutlineZoomIn
                       className="zoom-icon-in"
                       title="Quickview"
                       size={20}
-                    /> */}
+                    />
+                    </span>
 
           {items.steacker > 0 ? (
                     <div className="steack">New</div>
