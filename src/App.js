@@ -7,6 +7,9 @@ import Home from "./pages/Home";
 import DeliveryInformation from "./pages/DeliveryInformation";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
+import CardList from "./component/blogList/CardList";
+import Details from "./component/blogDetail/Details";
+import BlogList from "./pages/blog/BlogList";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
+          <Route path="/BlogList" element={<BlogList />} />
+          <Route path="/Details" element={<Details />} />
+          {/* <Route path="/Details" element={<ReadMore />} /> */}
         </Routes>
       </main>
 

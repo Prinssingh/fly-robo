@@ -1,0 +1,46 @@
+.Details-box{
+    border: solid 1px red;
+    width: 100%;
+    height: 100%;
+    text-align: left;   
+   
+}
+.Details{
+    border: solid 1px greenyellow;
+    width: 75%;
+    margin: 1rem;
+}
+.Coment-call{
+    width: 80%;
+    height: 100%;
+    border: solid 1px green ;
+    bottom: 0%;
+    position: absolute;
+}
+.Coments{
+    width: 60%;
+    border: 1px solid rgb(255, 217, 0);
+    justify-content: left;
+    text-align: left;
+    margin-left: 2%;
+    font-weight: 500;
+      
+}
+input{
+    margin: 1rem;
+}
+.tag{
+    margin: 1rem;
+    /* border: solid 2px red; */
+   
+}
+a{
+    width: 4.2rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background-color: rgb(65, 65, 65);
+    gap: 20px;
+    margin-left: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
