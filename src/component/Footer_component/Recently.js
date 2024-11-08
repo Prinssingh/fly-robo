@@ -60,7 +60,7 @@ export default class Recently extends React.Component {
     }
 
     return (
-      <div className="product-container">
+      <div className="product-container" id="Recently">
         <div className="product-grid">
           {products.map((product) => (
             <ProductCard

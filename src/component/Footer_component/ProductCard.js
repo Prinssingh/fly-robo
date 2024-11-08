@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShoppingCart, Heart, Star, SearchX } from 'lucide-react';
-import"../styles/footer/productcard.css"
+import "../styles/footer/productcard.css";
 
 export default class ProductCard extends React.Component {
   
@@ -24,10 +24,14 @@ export default class ProductCard extends React.Component {
             className="product-image"
             style={{ width: '100', height: '100' }}
           />
-        <div className="quickview-badge">Quickview</div>
+
+          
+        
           <div className='serach-icon'>
-          <SearchX size={15} className='Searchx' />
+          <SearchX size={25} className='Searchx' />
+          <div className="quickview-badge">Quickview</div>
           </div>
+        
 
         </div>
 
