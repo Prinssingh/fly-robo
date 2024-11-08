@@ -20,12 +20,8 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
-<<<<<<< HEAD
-          
+
         </Routes>
-=======
-          </Routes>
->>>>>>> 5f4f68960c9431d311a6a051d808ebe7e06a7b38
       </main>
 
       <footer>
