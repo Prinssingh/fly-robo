@@ -7,9 +7,8 @@ import Home from "./pages/Home";
 import DeliveryInformation from "./pages/DeliveryInformation";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
-import CardList from "./component/blogList/CardList";
-import Details from "./component/blogDetail/Details";
-import BlogList from "./pages/blog/BlogList";
+import Register from "./pages/account/account/Register";
+import Account from "./pages/account/account/Account";
 
 function App() {
   return (
@@ -24,12 +23,10 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
 <<<<<<< HEAD
-          <Route path="/BlogList" element={<BlogList />} />
-          <Route path="/Details" element={<Details />} />
-          {/* <Route path="/Details" element={<ReadMore />} /> */}
-=======
 
->>>>>>> main
+=======
+          <Route path ="/pages/account/account/Account" element={<Account/>} />
+>>>>>>> 407db88c6f0da43e74f39dbb531b9941745c36d2
         </Routes>
       </main>
 

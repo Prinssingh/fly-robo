@@ -6,26 +6,31 @@ import "./styles/footer/footer.css";
 
 export default class Footer extends React.Component {
  
-  state = {
-    currentContent: null,
-    activeTab: 'recently' 
-  };
-
-  handleRecentlyViewedClick = (content) => {
-    this.setState({ 
-      currentContent: content,
+  constructor(props) {
+    super(props);
+    this.state = {
       activeTab: 'recently'
-    });
-  };
+    };
+  }
 
-  handleMostViewedClick = () => {
-    this.setState({ 
-      currentContent: <MostViewed />,
-      activeTab: 'most-viewed'
-    });
-  };
+  setActiveTab = (tab) => {
+    this.setState({ activeTab: tab });
+  }
+
+  renderTabContent = () => {
+    switch (this.state.activeTab) {
+      case 'recently':
+        return <Recently />;
+      case 'most-viewed':
+        return <MostViewed />;
+      default:
+        return <Recently />;
+    }
+  }
+  
  
   render() {
+    const { activeTab } = this.state;
     return (
       <footer className="footer">
       <br/>
@@ -36,10 +41,21 @@ export default class Footer extends React.Component {
 
               <ul className="nav-tab">
                 <li>
-                  <Link to="/" onClick={() => this.handleRecentlyViewedClick(<Recently />)} style={{ color: 'white', textDecoration : 'none'}}>Recently Viewed</Link>
+                <button
+                      className={activeTab === 'recently' ? 'active' : ''}
+                      onClick={() => this.setActiveTab('recently')}
+                    >
+                      Recently Viewed
+                    </button>
                 </li>
                 <li>
-                  <Link to="/most-viewed" onClick={() => this.handleMostViewedClick()} style={{ color: 'white',  textDecoration: 'none'}}>MOST Viewed</Link>
+                <button
+                      className={activeTab === 'most-viewed' ? 'active' : ''}
+                      onClick={() => this.setActiveTab('most-viewed')}
+                    >
+                      Most Viewed
+                    </button>
+
                 </li>
               </ul>
 
