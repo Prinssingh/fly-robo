@@ -63,6 +63,11 @@ export default class Header extends React.Component {
                     <pre>0 item(s) - ₹0 </pre>
                     <i class="fas fa-shopping-cart"> </i>
                   </Link>
+
+                  <div className="shoppingcart-info">
+                    <p>Your shopping cart is empty</p>
+                  </div>
+                  
                 </div>
               </div>
             </div>
