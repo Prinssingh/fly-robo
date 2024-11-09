@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import CardList from "../../component/blogList/CardList";
 import SearchBlog from "../../component/searchBlog/SearchBlog";
-import Pagination from "../../component/Pagination/Pagination";
+// import Pagination from "../../component/Pagination/Pagination";
 class BlogList extends Component {
     state = {  } 
     render() { 
