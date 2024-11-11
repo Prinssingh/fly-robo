@@ -12,8 +12,8 @@ import Account from "./pages/account/account/Account";
 import Logout from "./pages/account/account/Logout";
 import Register from "./pages/account/account/Register";
 // import ShoppingCart from "./pages/account/ShoppingCart"
-// import Details from "./component/blogDetail/Details";
 import BlogList from "./pages/blog/BlogList";
+// import BlogDetails from "./pages/blog/BlogDetails";
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
           <Route path ="/pages/account/account/Register" element={<Register/>} />
           {/* <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} /> */}
           <Route path="/BlogList" element={<BlogList />} />
-          {/* <Route path="/Details" element={<Details />} /> */}
+        
 
         </Routes>
       </main>
