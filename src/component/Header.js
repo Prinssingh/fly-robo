@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./header_component/Dropdown";
 import "./styles/header/header.css";
+// import Login from "../pages/account/account/Login";
 export default class Header extends React.Component {
   render() {
     return (
@@ -37,20 +38,20 @@ export default class Header extends React.Component {
                 <div className="icon-list">
                   <ul className="action-item">
                     <li className="hover">
-                      <Link to="/pages/account/account/Account" className="link">
+                      <Link to="./pages/account/account/Login" className="link">
                         <i className="fas fa-user"></i>
 
                         <span>Login</span>
                       </Link>
                     </li>
                     <li className="hover">
-                      <Link to="/account/register " className="link">
+                      <Link to="./pages/account/account/Register" className="link">
                         <i className="fas fa-pencil-alt"></i>
                         <span>Register</span>
                       </Link>
                     </li>
                     <li className="wish-hover">
-                      <Link to="/pages/account/account/Account" className="link watlist">
+                      <Link to="./pages/account/account/Wishlist" className="link watlist">
                         <i class="fa fa-heart"></i>
                         <span>wishlist</span>
                       </Link>
@@ -59,7 +60,7 @@ export default class Header extends React.Component {
                 </div>
 
                 <div className="header-shoppingcart">
-                  <Link to="/" className="shoppingcart-detaill">
+                  <Link to="./pages/account/account/ShoppingCart" className="shoppingcart-detaill">
                     <pre>0 item(s) - ₹0 </pre>
                     <i class="fas fa-shopping-cart"> </i>
                   </Link>
@@ -80,7 +81,7 @@ export default class Header extends React.Component {
                 <div className="menu-button">
                   <i class="fas fa-bars"></i>
                   <span>MENU</span>
-                <Dropdown/>
+                
                 </div>
               </div>
               <div className="col-2-containar-2">
@@ -129,6 +130,10 @@ export default class Header extends React.Component {
             <i className="fas fa-shopping-cart cart-icon"></i>
           </div>
         </header>
+
+        <Dropdown/>
+
+        {/* <Login/> */}
 
         {/* <Account/> */}
       </div>

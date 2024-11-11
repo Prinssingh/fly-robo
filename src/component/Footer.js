@@ -62,7 +62,7 @@ export default class Footer extends React.Component {
               {/* Display Recently component or the clicked link's content */}
 
               </div>
-              {this.state.currentContent || <Recently />}
+              {this.renderTabContent()}
             </div> 
 
            </div>  

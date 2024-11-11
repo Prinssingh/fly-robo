@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/header/dropdown.css";
 
 export default class Dropdown extends React.Component {
   constructor(props) {
@@ -66,10 +67,12 @@ export default class Dropdown extends React.Component {
     ];
 
     return (
-      <div>
+      
+      <div className="dropdown-main">
+        <div className="dropdown-containar">
         <ul className="menu-list">
           {menuItems.map((item, index) => (
-            <li
+            <li className="mainlink"
               key={index}
               onMouseEnter={() =>
                 item.hasSubmenu && this.setState({ openSubmenu: index })
@@ -78,7 +81,7 @@ export default class Dropdown extends React.Component {
                 item.hasSubmenu && this.setState({ openSubmenu: null })
               }
             >
-              <Link to={item.link} className="drowplink">
+              <Link to={item.link} className="drowplink submenu-link">
                 {item.icon && <i className={item.icon}></i>}
                 {item.title}
               </Link>
@@ -97,6 +100,7 @@ export default class Dropdown extends React.Component {
             </li>
           ))}
         </ul>
+        </div>
       </div>
     );
   }

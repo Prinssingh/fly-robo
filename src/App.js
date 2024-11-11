@@ -8,6 +8,7 @@ import DeliveryInformation from "./pages/DeliveryInformation";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +21,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
-
+          
         </Routes>
       </main>
 
