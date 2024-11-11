@@ -26,7 +26,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
-          <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
           <Route path ="/pages/account/account/Account" element={<Account/>} />
           <Route path ="/pages/account/account/Logout" element={<Logout/>} />
           <Route path ="/pages/account/account/Login" element={<Login/>} />
@@ -34,6 +33,7 @@ function App() {
           {/* <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} /> */}
           <Route path="/BlogList" element={<BlogList />} />
           {/* <Route path="/Details" element={<Details />} /> */}
+
         </Routes>
       </main>
 
