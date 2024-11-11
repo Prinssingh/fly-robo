@@ -15,6 +15,7 @@ import Register from "./pages/account/account/Register";
 import BlogList from "./pages/blog/BlogList";
 // import BlogDetails from "./pages/blog/BlogDetails";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -32,7 +33,9 @@ function App() {
           <Route path ="/pages/account/account/Register" element={<Register/>} />
           {/* <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} /> */}
           <Route path="/BlogList" element={<BlogList />} />
-        
+
+          <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
+          
 
         </Routes>
       </main>
