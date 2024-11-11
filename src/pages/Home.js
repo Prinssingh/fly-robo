@@ -125,7 +125,7 @@ steacker:"0"
         "https://www.flyrobo.in/image/cache/wp/gj/quadcopter_combo_kit_for_beginner_motor_esc_propeller_flightcontroller/quadcopter-drone-combo-kit-for-beginner--motor-+-esc-+-propeller-+-flight-controller-+-frame-+-tx-rx-simonk-550x550.webp",
       des: "Quadcopter Drone Combo Kit for beginner (Motor + ESC + Propeller + Flight Controller + Frame + TX-RX)",
       price: "12054",
-      crossprice: "12999",
+      crossprice: "₹12999",
       steacker:"7",
       cadegaryName:"You May Like"
     },
@@ -134,7 +134,7 @@ steacker:"0"
         "https://www.flyrobo.in/image/cache/wp/gj/product/arduino-uno-r3-+-cable-for-arduino-uno-550x550.webp",
       des: "Arduino Uno R3 Compatible board+ Cable for Arduino Uno",
       price: "574",
-      crossprice: "1,299",
+      crossprice: "₹1,299",
       steacker:"56"
     },
     {
@@ -142,7 +142,7 @@ steacker:"0"
         "https://www.flyrobo.in/image/cache/wp/gj/combo/Desktop-550x550.webp",
       des: "Quadcopter Drone Combo Kit for beginner (Motor + ESC + Propeller + Flight Controller + Frame + TX-RX flysky fsi6)",
       price: "13,799",
-      crossprice: "16,299",
+      crossprice: "₹16,299",
       steacker:"15"
     },
     {
@@ -150,7 +150,7 @@ steacker:"0"
         "https://www.flyrobo.in/image/cache/wp/gj/DXW-A2212-Outrunner-Brushless-Motor-1800KV-2-4S-2200KV2450KV-2-3S--Dron/a2212-kv1800-brushless-motor-for-rc-airplane-quadcopter-550x550.webp",
       des: "A2212 1000KV Brushless Motor For RC Airplane / Quadcopter",
       price: "361",
-      crossprice: "499",
+      crossprice: "₹499",
       steacker:"28"
     },
     {
@@ -158,7 +158,7 @@ steacker:"0"
         "https://www.flyrobo.in/image/cache/wp/gj/electric-cycle/71ksfb3WDSL._SL1500_-550x550.webp",
       des: "MY1016Z2 250W Motor Combo for Electric Bike / Bicycle (Original Unite)",
       price: "5,723",
-      crossprice: "7,499",
+      crossprice: "₹7,499",
       steacker:"24"
     },
     {
@@ -166,7 +166,7 @@ steacker:"0"
         "https://www.flyrobo.in/image/cache/wp/gj/product2/dji-f450-quadcopter-frame-kit-550x550.webp",
       des: "DJI F450 Quadcopter drone frame Kit with integrated PCB",
       price: "668",
-      crossprice: "824",
+      crossprice: "₹824",
       steacker:"19"
     },
     {
@@ -174,7 +174,7 @@ steacker:"0"
         "https://www.flyrobo.in/image/cache/wp/gj/product2/flysky-fs-i6-2.4g-6ch-afhds-rc-transmitter-with-fs-ia6-receiver-550x550h.webp",
       des: "FlySky FS-i6 2.4G 6CH AFHDS RC Transmitter With FS-iA6 Receiver",
       price: "4,369",
-      crossprice: "6,499",
+      crossprice: "₹6,499",
       steacker:"33"
     },
   ];
@@ -184,7 +184,7 @@ steacker:"0"
           "https://www.flyrobo.in/image/cache/wp/gj/product/arduino-uno-compatable-board-550x550.webp",
         des: "Arduino UNO R3 Compatible Development Board",
         price: "418",
-        crossprice: "1249",
+        crossprice: "₹1249",
         steacker:"67",
         cadegaryName:"Arduino Boards"
 
@@ -194,7 +194,7 @@ steacker:"0"
           "https://www.flyrobo.in/image/cache/wp/gj/product/arduino-uno-r3-+-cable-for-arduino-uno-550x550.webp",
         des: "Arduino Uno R3 Compatible board+ Cable for Arduino Uno",
         price: "574",
-        crossprice: "1299",
+        crossprice: "₹1299",
         steacker:"56"
       },
       {
@@ -202,7 +202,7 @@ steacker:"0"
           "https://www.flyrobo.in/image/cache/wp/gj/product/arduino-nano-r3-board-with-ch340-chip-soldered-550x550.webp",
         des: "Arduino Nano R3 Compatible Board with CH340 chip SOLDERED",
         price: "240",
-        crossprice: "756",
+        crossprice: "₹756",
         steacker:"68"
       },
       {
@@ -210,7 +210,7 @@ steacker:"0"
           "https://www.flyrobo.in/image/cache/wp/gj/product/arduino-nano-r3-board-unsoldered-550x550.webp",
         des: "Arduino nano R3 Compatible Board Unsoldered",
         price: "199",
-        crossprice: "500",
+        crossprice: "₹500",
         steacker:"60"
       },
       {
@@ -218,7 +218,7 @@ steacker:"0"
           "https://www.flyrobo.in/image/cache/wp/gj/arduino-uno-r3-smd-board-cable-for-arduino-uno-1/arduino-uno-r3-smd-board-cable-for-arduino-uno-13-550x550.webp",
         des: "Arduino Uno R3 SMD Compatible Development Board",
         price: "319",
-        crossprice: "989",
+        crossprice: "₹989",
         steacker:"68"
       },
       {
@@ -226,7 +226,7 @@ steacker:"0"
           "https://www.flyrobo.in/image/cache/wp/gj/arduino-uno-r3-smd/arduino-uno-r3-smd-board-+-cable-for-arduino-uno-550x550.webp",
         des: "Arduino Uno R3 SMD Compatible Board + Cable for Arduino Uno",
         price: "349",
-        crossprice: "999",
+        crossprice: "₹999",
         steacker:"65"
       },
       {
@@ -234,7 +234,7 @@ steacker:"0"
           "https://www.flyrobo.in/image/cache/wp/gj/arduino-nano-v3.0-atmega328p-ch340-chip-i-type-c-soldered/arduino-nano-v3.0-atmega328p-ch340-chip-i-type-c-soldered9-550x550.webp",
         des: "Arduino Nano V3.0 ATmega328P CH340 Chip I Type-C UNSOLDERED",
         price: "218",
-        crossprice: "499",
+        crossprice: "₹499",
         steacker:"56"
       }
 ]
@@ -296,7 +296,7 @@ const FlightControllerList =[
       image:"https://www.flyrobo.in/image/cache/wp/gp/arducopter-apm-2.8-flight-control-board-for-rc-multi-rotor-drone/arducopter-apm-2.8-flight-control-board-for-rc-multi-rotor-drone-550x550.webp",
       des:"ARDUCOPTER APM 2.8 Flight Control Board for RC Multi Rotor Drone",
       price:"5176",
-      crossprice:"6999",
+      crossprice:"₹6999",
       steacker:"26",
       cadegaryName:"Flight controller and Rc Transmitter"
 
@@ -305,42 +305,42 @@ const FlightControllerList =[
       image:"https://www.flyrobo.in/image/cache/wp/gj/product2/kk2.1.5-lcd-flight-controll-board-for-fpv-racing-drone-550x550.webp",
       des:"KK2.1.5 LCD Flight Controll Board for FPV Racing Drone | e | kk flight controller",
       price:"4307",
-      crossprice:"5901",
+      crossprice:"₹5901",
       steacker:"27"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/product2/flysky-fs-i6-2.4g-6ch-afhds-rc-transmitter-with-fs-ia6-receiver-550x550h.webp",
       des:"FlySky FS-i6 2.4G 6CH AFHDS RC Transmitter With FS-iA6 Receiver",
       price:"4369",
-      crossprice:"6499",
+      crossprice:"₹6499",
       steacker:"33"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/FlySky-FS-CT6B-FS-CT6B-24G-6CH-Radio-Set-System--TX-FS-CT6B--RX-FS-R6B-/flysky-fs-ct6b-2.4g-6ch-radio-set-system-with-rx-fs-r6b-receiver2-550x550.webp",
       des:"FlySky FS-CT6B 2.4G 6CH Radio Set System with RX FS-R6B receiver.",
       price:"2483",
-      crossprice:"3499",
+      crossprice:"₹3499",
       steacker:"29"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/pixhawk_px4_32bits_flight_controller/pixhawk_px4_32bits_flight_controller-5-550x550w.webp",
       des:"Pixhawk 2.4.8 PX4 32 Bit Flight Controller with Safety Switch and Buzzer for Drone High Quality",
       price:"11070",
-      crossprice:"13599",
+      crossprice:"₹13599",
       steacker:"19"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/Pixhawk-PIX-248--PX4-Autopilot-PIX-248-32-Bit-Flight-Controller-with-Sa/pixhawk-combo-550x550.webp",
       des:"Pixhawk PX4 Autopilot 2.4.8 32 Bit Flight Controller kit",
       price:"13555",
-      crossprice:"15799",
+      crossprice:"₹15799",
       steacker:"14"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/FlySky-FS-i6-2.4G-6CH-AFHDS-Transmitter-With-FS-iA6B-Receiver/flysky-fs-ia6-6ch-afhds-2a-2.4g-radio-receiver-550x550.webp",
       des:"Flysky FS-IA6 6CH AFHDS 2A 2.4G Radio Receiver",
       price:"980",
-      crossprice:"1500",
+      crossprice:"₹1500",
       steacker:"35"
   }
 ]
@@ -349,7 +349,7 @@ const Ebikelist=[
       image:"https://www.flyrobo.in/image/cache/wp/gj/my1016-250w-24v-dc-motor-with-gear-for-e-bike-electric-bicycle-original-unite/my1016-250w-24v-dc-motor-with-gear-for-e-bike-electric-bicycle-original-unite-3-550x550.webp",
       des:"MY1016 250W 24V DC Motor with gear for E-Bike | Electric bicycle - Original Unite",
       price:"3275",
-      crossprice:"3899",
+      crossprice:"₹3899",
       steacker:"16",
       cadegaryName:"E-Bike"
 
@@ -358,42 +358,42 @@ const Ebikelist=[
       image:"https://www.flyrobo.in/image/cache/wp/gj/twist-throttle-grip-accelerator-for-e-bike/twist-throttle-grip-accelerator-for-e-bike-550x550h.webp",
       des:"Twist Throttle Grip Accelerator for E-bike",
       price:"293",
-      crossprice:"385",
+      crossprice:"₹385",
       steacker:"24"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/electric-cycle/71ksfb3WDSL._SL1500_-550x550.webp",
       des:"MY1016Z3 350W Motor Combo for Electric Bike / Bicycle (Original Unite)",
       price:"8999",
-      crossprice:"9399",
+      crossprice:"₹9399",
       steacker:"4"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/electric-cycle/my1016-350w-motor-+-motor-controller-+-twist-throttle-for-diy-electric-bicycle-kit-550x550.webp",
       des:"MY1016 350W Motor + Motor Controller + Twist throttle for DIY ELECTRIC BICYCLE KIT",
       price:"4808",
-      crossprice:"6399",
+      crossprice:"₹6399",
       steacker:"25"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gp/electric-cycle/TECH1083_a_1024x1024-550x550w.webp",
       des:"MY1016 350W 24V DC Motor for E-Bike",
       price:"3899",
-      crossprice:"4599",
+      crossprice:"₹4599",
       steacker:"15"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gj/electric-cycle/my1016-250w-motor-+-motor-controller-+-twist-throttle-for-diy-electric-bicycle-kit-550x550h.webp",
       des:"MY1016 250W Motor + Motor Controller + Twist throttle for DIY ELECTRIC BICYCLE KIT",
       price:"2759",
-      crossprice:"4399",
+      crossprice:"₹4399",
       steacker:"37"
   },
   {
       image:"https://www.flyrobo.in/image/cache/wp/gp/electric-cycle/TECH1083_a_1024x1024-550x550w.webp",
       des:"MY1016 250W 24V DC Motor for E-Bike | Electric bicycle - Original Unite",
       price:"1947",
-      crossprice:"2999",
+      crossprice:"₹2999",
       steacker:"33"
   }
 ]

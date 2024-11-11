@@ -41,9 +41,12 @@
     display: inline-flex;
     justify-content: center;
     justify-items: center;
-    /* border: 2px solid blue; */
+    /* border: 2px solid #00ff62; */
     width: 100%;
+    /* width: fit-content; */
+
     height: fit-content;
+    margin-top: 3rem;
 }
 .Quick-Pick{
     display: inline-flex;
@@ -52,6 +55,8 @@
     /* border: 2px solid rgb(233, 194, 22); */
     width: 100%;
     height: fit-content;
+    margin-top: 3rem;
+
 }
 .testemonial{
     display: inline-flex;
@@ -60,6 +65,8 @@
     /* border: 2px solid blue; */
     width: 100%;
     height: fit-content;   
+    margin-top: 3rem;
+
 }
 .productdetail{
     display: inline-flex;
