@@ -62,7 +62,7 @@ export default class Footer extends React.Component {
               {/* Display Recently component or the clicked link's content */}
 
               </div>
-              {this.state.currentContent || <Recently />}
+              {this.renderTabContent()}
             </div> 
 
            </div>  
@@ -141,7 +141,7 @@ export default class Footer extends React.Component {
             <div className="copyright" style={{padding: '0'}}>
               <ul className="copyright-menu">
                 <li>
-                  <Link to="#" className="link">Copyright © 2019, FlyRobo, All Rights Reserved.</Link>
+                  <Link to="#" className="link">Copyright © 2024, Aman, All Rights Reserved.</Link>
               
                 </li>
                 </ul>
