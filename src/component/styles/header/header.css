@@ -35,6 +35,9 @@
       justify-content: space-between;
     }
   }
+
+
+  /* base device css */
   
   .header {
     display: flex;
