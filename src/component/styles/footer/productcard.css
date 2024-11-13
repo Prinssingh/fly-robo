@@ -62,18 +62,15 @@
     .product-info {
       height: auto;
       width: 65%;
+      padding-top: 2%;
       padding-left: 0.54rem;
       overflow: hidden;
     }
 
-    /* .quickview-container{
-      position: relative;
 
-    } */
 
     .Searchx {
       position: absolute;
-      /* position: relative; */
       top: 50%;
       left: 50%;
       color: #e5e7eb;
@@ -173,6 +170,7 @@
     .original-price {
       font-size: 0.875rem;
       color: #6b7280;
+      margin-left: 2.5% !important;
       text-decoration: line-through;
     }
 

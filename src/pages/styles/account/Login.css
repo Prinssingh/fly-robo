@@ -1,111 +1,120 @@
 @media (max-width: 768px) {
-    .section-container {
-         display: grid; 
-         flex-direction: column;
-       
-        align-items: center;
-      }
-      .section-1 .btn{
-        margin-top: 0 !important;
-      }
-    
-      .section-1,
-      .section-2 {
-        width: 100% !important;
-       
-      }
-  
-      .section-google-btn{
-        justify-self: unset !important;
-      }
+  .section-container {
+    display: grid;
+    flex-direction: column;
+
+    align-items: center;
   }
-  
-  
-  .login-container {
+  .section-1 .btn {
+    margin-top: 0 !important;
+  }
+
+  .section-1,
+  .section-2 {
+    width: 100% !important;
+  }
+
+  .section-google-btn {
+    justify-self: unset !important;
+  }
+}
+
+.login-container {
   margin-top: 2%;
   background-color: #fff;
-  
-  }  
-  
-  .section-container {
-  
-    max-width: 1280px;
-    margin: 0 auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-container {
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   gap: 20px;
-  /* background-color: #002266; */
   justify-content: center;
   align-items: center;
-  }
-  
-  .section-1 {
+}
+
+.section-1 {
   width: 50%;
-  
-  }
-  
-  .section-2 {
+}
+
+.section-2 {
   width: 47%;
-  }
-  
-  .section-1 .btn{
+}
+
+.section-1 .btn {
   background-color: #002266;
   color: #fff;
-  margin-top: 15%;
-  }
-  
-  
-  
-  .section-1 h2 {
+  margin-top: 23.5%;
+}
+
+.google-btn i {
+  color: white;
+}
+
+.google-btn span {
+  color: white;
+}
+
+.section-1 h2 {
   font-size: 24px;
   color: #333;
-  
-  }
-  .section-1 h2 span {
+}
+
+.section-1 h2 span {
   display: block;
   width: 3.125rem;
   height: 0.125rem;
   background-color: #ff6600;
   margin-top: 0.313rem;
-  }
-  .section-1 p {
+}
+
+.section-2 h2 span {
+  display: block;
+  width: 3.125rem;
+  height: 0.125rem;
+  background-color: #ff6600;
+  margin-top: 0.313rem;
+}
+
+
+.section-1 p {
   font-size: 0.875rem;
   color: #666;
   line-height: 1.5;
-  }
-  .form-group {
+}
+.form-group {
   margin-bottom: 0.938rem;
   align-items: center;
   display: flex;
-  }
-  .form-group label {
+  padding-top: 2%;
+}
+
+.form-group label {
   display: block;
   font-size: 0.855rem;
   font-weight: 500;
   width: 30%;
   color: #333;
-  /* margin-right: 50px; */
   margin-bottom: 0.313rem;
-  }
-  .form-group input {
+}
+
+.form-group input {
   width: 70%;
   padding: 0.625rem;
   font-size: 0.875rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
-  }
-  .form-group a {
+}
+.form-group a {
   font-size: 0.75rem;
   color: #007bff;
   text-decoration: none;
-  }
-  .form-group a:hover {
+}
+.form-group a:hover {
   text-decoration: underline;
-  }
-  
-  
-  
-  .btn {
+}
+
+.btn {
   display: inline-block;
   width: 100%;
   padding: 0.625rem;
@@ -116,16 +125,13 @@
   border-radius: 0.25rem;
   cursor: pointer;
   text-align: center;
-  }
-  .btn:hover {
+}
+.btn:hover {
   background-color: #002266;
-  }
-  
-  /* .google-btn i{
-  border-right:2px solid black
-  } */
-  
-  .google-btn {
+  color: #fff;
+}
+
+.google-btn {
   display: inline-block;
   width: 100%;
   padding: 0.625rem;
@@ -136,32 +142,31 @@
   border-radius: 0.313rem;
   cursor: pointer;
   text-align: center;
-  
+
   margin-top: 10px;
-  }
-  
-  .google-btn{
-    display: inline-block;
-    padding: 0.625rem;
-    width: 50%;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #db4437;
-    border: none;
-    border-radius: 0.313rem;
-    cursor: pointer;
-    /* text-align: center; */
-  }
-  
-  .google-btn i {
+}
+
+.google-btn {
+  display: inline-block;
+  padding: 0.625rem;
+  width: 50%;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #db4437;
+  border: none;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+.google-btn i {
   margin-right: 5px;
-  }
-  
-  
-  .section-google-btn{
+}
+
+.section-google-btn {
   width: 100%;
   margin-top: 4%;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}

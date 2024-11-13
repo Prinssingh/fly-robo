@@ -49,12 +49,17 @@
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    text-align: center;
+    /* text-align: center; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .card .card-icon {
     font-size: 36px;
     color: #666;
+    display: flex;
+    justify-self: center;
     margin-top: 20px;
 }
 .card p {
