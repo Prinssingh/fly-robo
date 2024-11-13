@@ -19,10 +19,17 @@ class SearchBlog extends Component {
             <div className="Container2" >
                 <div id="Search">
                    <input type="text" placeholder="Search Here. . . ." />
-                   <button ><IoSearchSharp /></button>
-                   
-                  
+                   <button className="BtnIcon" ><IoSearchSharp /></button>            
                 </div>
+                <div className="latest">
+                    <button>Latest Posts</button>                
+                </div>    
+                <br/>
+                <br/>            
+                <div className="mostRead">
+                    <button className="most">MostRead</button>
+                </div>
+                
                 <div id="blog">
                     {Products.map((Product) => (
                     <Card

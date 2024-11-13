@@ -30,10 +30,8 @@ function App() {
           <Route path ="/pages/account/account/Logout" element={<Logout/>} />
           <Route path ="/pages/account/account/Login" element={<Login/>} />
           <Route path ="/pages/account/account/Register" element={<Register/>} />
-          {/* <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} /> */}
           <Route path="/BlogList" element={<BlogList />} />
           <Route path="/Details" element={<Details />} />
-
         </Routes>
       </main>
 
