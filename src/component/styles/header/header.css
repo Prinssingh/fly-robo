@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   
-    .row-1 {
+    .header-row-1 {
       flex-direction: row;
       justify-content: space-between;
     }
@@ -30,7 +30,7 @@
   }
   
   @media  (max-width: 1062px) {
-    .row-1{
+    .header-row-1{
       gap: 2rem;
       justify-content: space-between;
     }
@@ -44,11 +44,11 @@
     position: relative;
   }
   
-  .row-1 {
+  .header-row-1 {
     width: 100%;
   }
   
-  .row-1-container{
+  .header-row-1-container{
     justify-content: center;
     justify-items: center;
     display: flex;
@@ -187,17 +187,13 @@
   
   .shoppingcart-detaill {
     display: flex;
-    /* background-color: seashell; */
     align-items: center;
     text-decoration: none;
-
     gap: 1rem;
     margin-left: 2px;
   }
   
-  /* .shoppingcart-detaill {
-    text-decoration: none;
-  } */
+ 
   
   .header-shoppingcart:hover .shoppingcart-detaill pre {
     color: aquamarine;
@@ -225,18 +221,16 @@
     transform: scaleX(-1);
   }
   
-  .col-2 {
+  .header-row-2 {
     position: sticky;
     width: 100%;
     background-color: rgba(58, 71, 84, 1);
     height: 2.688rem;
   }
-  .col-2-containar {
+  .header-row-2-containar {
     max-width: 80rem;
     margin: 0 auto 0 auto;
     height: auto;
-  
-    /* overflow: hidden; */
     justify-content: center;
     align-self: center;
     justify-content: space-between;
@@ -244,7 +238,6 @@
   }
   
   .menu {
-    /* padding-left: 10px; */
     width: 80%;
     align-items: center;
     /* overflow: hidden; */
@@ -254,8 +247,6 @@
   .menu-button {
     padding: 0.7299rem 0.856rem;
     width: 20%;
-    
-    /* display: grid; */
     line-height: 1;
     font-size: 1.2rem;
     color: rgba(51, 51, 51, 1) !important;
@@ -272,18 +263,16 @@
     margin-left: 0.398rem;
   }
   
-  /* .menu-button:hover .drpdown-main{
-    display: block;
-  } */
 
-  .col-2-containar-2 {
+
+  .header-col-2-containar-2 {
     width: 20%;
     display: flex;
     height: 2.688rem;
     align-items: center;
   }
   
-  .col-2-containar-2 .blog {
+  .header-col-2-containar-2 .blog {
     width: 30%;
     height: 2.688rem;
     text-align: center;
@@ -295,7 +284,7 @@
     background: rgba(254, 212, 48, 1);
   }
   
-  .col-2-containar-2 .flaroboimport {
+  .header-col-2-containar-2 .flaroboimport {
     width: 70%;
     height: 2.688rem;
     align-items: center;
@@ -307,7 +296,7 @@
     background-color: rgba(247, 226, 83, 1);
   }
   
-  .col-2-containar-2 .link {
+  .header-col-2-containar-2 .link {
     color: #b32b2b;
     font-size: 0.875rem;
     color: rgba(51, 51, 51, 1) !important;

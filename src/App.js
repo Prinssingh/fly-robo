@@ -7,6 +7,13 @@ import Home from "./pages/Home";
 import DeliveryInformation from "./pages/DeliveryInformation";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
+import Login from "./pages/account/account/Login";
+import Account from "./pages/account/account/Account";
+import Register from "./pages/account/account/Register";
+import WishList from "./pages/account/account/WishList";
+import ShoppingCart from "./pages/account/ShoppingCart";
+import ChangePassword from "./pages/account/account/ChangePassword";
+
 
 
 function App() {
@@ -21,7 +28,12 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
-          
+          <Route path="/pages/account/account/Login" element={<Login/>} />
+          <Route path="/pages/account/account/Account" element={<Account/>} />
+          <Route path="/pages/account/account/Register" element={<Register/>} />
+          <Route path="/pages/account/account/WishList" element={<WishList/>} />
+          <Route path="/pages/account/ShoppingCart" element={<ShoppingCart/>} />
+          <Route path="/pages/account/account/ChangePassword" element={<ChangePassword/>} />
         </Routes>
       </main>
 

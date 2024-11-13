@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/account/Login.css";
+import { Link } from "react-router-dom";
 export default class Login extends React.Component {
   constructor(props) {
     super(props);
@@ -74,11 +75,11 @@ export default class Login extends React.Component {
                   placeholder="E-Mail Address"
                   onChange={this.handleInputChange}
                 />
-                {emailError && (
+                {/* {emailError && (
                   <div className="error-message" style={{ color: "red" }}>
                     {emailError}
                   </div>
-                )}
+                )} */}
               </div>
               <div className="form-group">
                 <label htmlFor="password">Password</label>
@@ -89,14 +90,14 @@ export default class Login extends React.Component {
                   placeholder="Password"
                   onChange={this.handleInputChange}
                 />
-                {passwordError && (
+                {/* {passwordError && (
                   <div className="error-message" style={{ color: "red" }}>
                     {passwordError}
                   </div>
-                )}
+                )} */}
               </div>
               <div className="form-group">
-                <a href="#">Forgotten Password</a>
+                <Link to="/pages/account/account/ChangePassword">Forgotten Password</Link>
               </div>
               <button type="submit" className="btn">
                 LOGIN
@@ -105,11 +106,14 @@ export default class Login extends React.Component {
           </div>
         </div>
         <div className="section-google-btn">
-        <button className="google-btn">
-          
-          
-          <i className="fab fa-google"></i> Sign in
-        </button>
+        <div className="google-btn">
+           
+        <Link to="/pages/account/account/Account"> 
+          <i className="fab fa-google"></i> 
+              <span>Sign in</span>
+        </Link>
+            
+        </div>
         </div>
       </div>
     );
