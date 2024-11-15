@@ -13,7 +13,7 @@ import Logout from "./pages/account/account/Logout";
 import Register from "./pages/account/account/Register";
 import ShoppingCart from "./pages/account/ShoppingCart"
 import BlogList from "./pages/blog/BlogList";
-// import BlogDetails from "./pages/blog/BlogDetails";
+import BlogDetails from "./pages/blog/BlogDetails";
 import WishList from "./pages/account/account/WishList";
 import ChangePassword from "./pages/account/account/ChangePassword";
 
@@ -36,7 +36,7 @@ function App() {
           <Route path ="/pages/account/account/Register" element={<Register/>} />
           <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} /> 
           <Route path="/BlogList" element={<BlogList />} />
-          <Route path="/Details" element={<Details />} />
+          <Route path="/BlogDetail" element={<BlogDetails />} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
           <Route path="/pages/account/account/Login" element={<Login/>} />
           <Route path="/pages/account/account/Account" element={<Account/>} />
