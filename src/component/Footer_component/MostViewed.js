@@ -77,7 +77,7 @@ export default class MostViewed extends React.Component {
     }
 
     return (
-      <div className="product-container">
+      <div className="product-container" id="MostViewed">
         <div className="product-grid">
           {products.map((product) => (
             <ProductCard

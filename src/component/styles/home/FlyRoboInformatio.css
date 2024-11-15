@@ -1,0 +1,173 @@
+
+
+.DisContainer{
+    margin-top: 20px;
+    width: 100%;
+    height: 20vh;
+}
+.secound-div{
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    border: 5px solid rgb(123, 215, 243);
+    width: 80vw;
+    max-width: 80rem;
+    /* margin-left: 13.8rem; */
+    border-radius: 10px;
+    height: 5.5rem;
+    border-bottom: none;
+    margin-top: 10px;
+}
+.boxdiv{
+    /* border: 2px solid blue; */
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+.third-Div{
+    /* border: 2px green solid; */
+    background-color:  rgb(49, 59, 78);
+    width: 100%;
+    height: 6.5rem;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+}
+.third-Under-div{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80rem;
+    height: fit-content;
+    max-width: 80rem;
+    /* margin-left: 9.3rem; */
+    
+}
+.third-Div:hover > :not(:hover){
+    opacity: 0.8;
+}
+.icons1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    /* width: 22rem; */
+    height: 6.6rem;
+    gap: 1px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 1.2rem;
+
+}
+.icons2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.icons3{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.icons4{
+    display: flex;
+justify-content: center;
+    justify-items: center;
+
+}
+
+@media only screen and (max-width:600px) {
+
+
+    .DisContainer{
+        margin-top: 15px;
+        width: 100%;
+        height: 20vh;
+    }
+    .secound-div{
+        display: flex;
+        font-weight: bolder;
+        justify-content: center;
+        border: 5px solid rgb(123, 215, 243);
+        width: 98vw;
+        /* margin-left: 13.8rem; */
+        border-radius: 10px;
+        height: 5.5rem;
+        border-bottom: none;
+        margin-top: 5px;
+    }
+    .boxdiv{
+        /* border: 2px solid blue; */
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+    }
+    .third-Div{
+        /* border: 2px green solid; */
+        background-color:  rgb(49, 59, 78);
+        width: 100%;
+        height: fit-content;
+        display: inline-flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .third-Under-div{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 78rem;
+        height: 12.5rem;
+        position: relative;
+        /* margin-left: 9.3rem; */
+        overflow:hidden;
+        
+    }
+    .third-Div:hover > :not(:hover){
+        opacity: 0.8;
+    }
+    .icons1{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        /* width: 22rem; */
+        height: 6.6rem;
+        /* gap: 1px; */
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        border: 2px solid blue;
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        margin-top: 1.2rem;
+    
+    }
+    .icons2{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .icons3{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .icons4{
+        display: flex;
+    justify-content: center;
+        justify-items: center;
+    
+    }
+}
