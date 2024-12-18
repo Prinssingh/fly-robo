@@ -15,7 +15,7 @@ const LineItems = () => {
     <span className=" Quick mx-2">Quick|inks</span>
     {list.map((item,index)=>{
         return(<>
-                <li className='litag' key={index}>{item}</li>
+                <li key={index} className='litag'>{ item}</li>
         </>)
     })}
    

@@ -1,12 +1,10 @@
 .rightCarousel {
-    /* border: 2px solid black; */
-    margin-left: -15px;
-    width: 328px;
-    height: 450px;
+    /* margin-left: -15px; */
+    max-width: 328px;
+    width:100%;
+    height: auto;
     border-radius: 10px;
-    display: flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
+
 }
 
 .textComponent {
@@ -19,7 +17,10 @@
 
 .main {
     position: relative;
-
+    flex-basis:50%;
+    margin: 7px auto;
+    
+    /* border: 2px solid red; */
 }
 
 .rightCarousel:hover> :not(:hover) {
@@ -34,9 +35,7 @@
     top: 55px;
 }
 
-.main1 {
-    position: relative;
-}
+
 
 .text-on-image1 {
     position: absolute;
@@ -48,43 +47,127 @@
 .firsdiv {
     background-size: cover;
     /* border: 1px solid red; */
-    width: 328px;
-    height: 213px;
+   
+
 }
+
 
 .secdiv {
     background-size: cover;
     /* border: 1px solid red; */
-    width: 328px;
-    height: 213px;
-    margin-top: 20px;
+   
+    /* margin-top: 20px; */
 }
 
 .img1 {
     background-size: cover;
-    height: 212px;
-    width: fit-content;
+    /* height: 212px; */
+    /* width: fit-content; */
     border-radius: 10px;
 
+}
+@media (max-width:1027) {
+    .rightCarousel{
+        /* border: 2px solid black; */
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        margin: 10px auto;
+    
+        }
+        .main{
+            flex-basis:50%;
+            /* width: 100%;
+            max-width: 100%; */
+        }
+        .firsdiv {
+            background-size: cover;
+            /* border: 1px solid red; */
+            width: 100%;
+            max-width:100%;
+        }
+        .secdiv {
+            background-size: cover;
+            /* border: 1px solid red; */
+            width: 100%;
+            max-width:100%;
+          
+    
+        } 
+}
+
+@media (max-width: 767px) {
+
+    .rightCarousel{
+    /* border: 2px solid black; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 10px auto;
+
+    }
+    .main{
+        flex-basis:48%;
+        /* width: 100%;
+        max-width: 100%; */
+    }
+    .firsdiv {
+        background-size: cover;
+        /* border: 1px solid red; */
+        width: 100%;
+        max-width:100%;
+    }
+    .secdiv {
+        background-size: cover;
+        /* border: 1px solid red; */
+        width: 100%;
+        max-width:100%;
+      
+
+    }
+}
+
+@media (max-width: 721px) {
+    .rightCarousel{
+        /* border: 2px solid black; */
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        gap: .5rem;
+
+        }
+    .main {  
+   /* border: 2px solid red; */
+  width: 100%;
+    max-width: 50%;
+    overflow: hidden;
+    }
+    .img1 {
+        border-radius: 10px;
+        width:100%;
+        height: auto;
+    }
+    .firsdiv {
+        background-size: cover;
+      
+        
+    }
+    .secdiv {
+        background-size: cover;
+        /* border: 1px solid red; */
+      
+    }
+    
 }
 
 @media only screen and (max-width:600px) {
 
-    .rightCarousel {
-        /* border: 2px solid black; */
-        margin-left: 6px;
-        width: 35.5rem;
-        padding: 3px;
-        height: 12rem;
-        border-radius: 10px;
-        display: flex;
-        justify-content: space-between ;
-        justify-items: center;
-        margin-top: 4px;
-        /* gap: 4px; */
-        /* flex-direction: row; */
-        /* flex-wrap: wrap; */
-    }
 
     .textComponent {
         font-size: 1rem;
@@ -94,10 +177,7 @@
         font-size: 1.1rem;
     }
 
-    .main {
-        position: relative;
-
-    }
+   
 
     .rightCarousel:hover> :not(:hover) {
         opacity: 0.8;
@@ -111,43 +191,12 @@
         top: 55px;   
     }
 
-    .main1 {
-        position: relative;
-        /* border: 1px solid red;
-        width: 280px;
-        height: 200px; */
-    }
+    
 
     .text-on-image1 {
         position: absolute;
         right: 5px;
         left: 15px;
         top: 48px;
-    }
-
-    .firsdiv {
-        background-size: cover;
-        /* border: 1px solid red; */
-        width: 280px;
-        height: 180px;
-        overflow: hidden;
-    }
-
-    .secdiv {
-        background-size: cover;
-        /* border: 1px solid red; */
-        width: 280px;
-        height: 180px;
-        overflow: hidden;
-        margin-top: -1px;
-        margin-left: 1px;
-
-    }
-
-    .img1 {
-        background-size: cover;
-        height: 100%;
-        width: fit-content;
-        border-radius: 10px;
     }
 }

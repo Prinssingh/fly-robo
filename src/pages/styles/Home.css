@@ -1,156 +1,135 @@
-
-/* Curosal left section */
-.curosal{
-    display: inline-flex;
-    flex-wrap: wrap;
-    /* border: 1px solid rgb(16, 17, 16); */
-    width: 80rem;
-    justify-content: space-between;
-    height: fit-content;
-    margin-top: 1rem;
-    max-width: 85rem;
-}
-
-/* Curosal right section */
-
-.Curosalmaindiv{
-    /* border: 2px solid rgb(86, 250, 94); */
+/* Base styles for the home container */
+.home_container {
     width: 100%;
-    height:fit-content;
+    height:auto;
+    padding: 0 20px;
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    justify-items: center;
-
-}
-
-/* destination section */
-
-.destination{
+    align-items: center;
+    gap: 20px;
+    /* border:2px solid red; */
+  }
+  
+  .home-wraper {
+    
     width: 100%;
-    /* border: 1px solid red; */
-    height: 14rem;
-    display: inline-flex;
-
-}
-
-/* Card  section */
-/* Fetured ke liye use bhi hua hai */
-
-.cardComponent{
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid #00ff62; */
-    width: 100%;
-    /* width: fit-content; */
-
-    height: fit-content;
-    margin-top: 3rem;
-}
-.Quick-Pick{
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid rgb(233, 194, 22); */
-    width: 100%;
-    height: fit-content;
-    margin-top: 3rem;
-
-}
-.testemonial{
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid blue; */
-    width: 100%;
-    height: fit-content;   
-    margin-top: 3rem;
-
-}
-.productdetail{
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid blue; */
-    width: 100%;
-    height: fit-content;  
-}
+    max-width: 80rem;
+    overflow: hidden;
 
 
+  }
+  
+  
+  
+  .destination{
+    height: auto;
 
-@media screen and (max-width:600px) {
- 
-/* Curosal left section */
-.curosal{
-    display: inline-flex;
-    flex-wrap: wrap;
-    /* border: 3px solid rgb(16, 17, 16); */
-    width: 80rem;
-    justify-content: space-between;
-    height: fit-content;
-    margin-top: 1rem;
-
-}
-
-/* Curosal right section */
-
-.Curosalmaindiv{
-    /* border: 2px solid rgb(86, 250, 94); */
-    width: 100%;
-    height:fit-content;
+  }
+  .cardComponent,
+  .Quick-Pick,
+  .testemonial,
+  .productdetail {
+    height: auto;
+    margin-top: 30px;
+    /* border:2px solid red; */
+  }
+  .cardComponent{
+    margin: 80px 0;
+  }
+  
+  /* Flex for Quick-Pick components to display items in a row on larger screens */
+  .Quick-Pick {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
+    gap: 20px;
+  }
+  
+  /* Individual card styles */
+  .cardComponent, .Quick-Pick {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  @media (max-width: 992px) {
+    .destination .cardComponent{
+      display: flex;
+      flex-direction: column;
+     flex-wrap: wrap;
+    }
+  }
+  
+  /* For larger screens (desktops) */
+  @media (min-width: 1024px) {
+    .home-wraper {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
-}
+    .destination, .cardComponent, .Quick-Pick, .testemonial, .productdetail {
+      flex: 1;
+    }
+  
+    .Quick-Pick {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  
+  /* For tablets and medium screens */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+    .home-wraper {
+      flex-direction: column;
+    }
+  
+   
+  
+    .Quick-Pick {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .cardComponent{
+      margin-top: 11rem;
+    }
+  }
+  
+  /* For small screens (mobile phones) */
+  @media (max-width: 767px) {
+    .home_container{
+      padding: 0 20px;
+      width: 100%;
 
-/* destination section */
+      overflow:hidden;
+    }
+    .home-wraper {
+      padding: 10px;
 
-.destination{
-    width: 100%;
-    /* border: 1px solid red; */
-    height: 14rem;
-    display: inline-flex;
+    }
+  
+    .curosal .curosal, 
+    .destination,
+    .cardComponent,
+    .Quick-Pick,
+    .testemonial,
+    .productdetail {
+      width: 100%;
+    }
+    .cardComponent{
+      margin-top: 13rem;
 
-}
-
-/* Card  section */
-/* Fetured ke liye use bhi hua hai */
-
-.cardComponent{
-    /* display: flex; */
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid blue; */
-    width: 100%;
-    height: 20rem;
-    margin-top: 7rem;
-}
-.Quick-Pick{
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid blue; */
-    width: 100%;
-    height: fit-content;
-    margin-top: 2rem;
-}
-.testemonial{
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid blue; */
-    width: 100%;
-    height: fit-content;   
-}
-.productdetail{
-    display: inline-flex;
-    justify-content: center;
-    justify-items: center;
-    /* border: 2px solid blue; */
-    width: 100%;
-    height: fit-content;  
-}   
-}
+    }
+  
+    .Quick-Pick {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Quick-Pick .card {
+      width: 100%;
+    }
+  }
+  
