@@ -24,7 +24,7 @@ export default class ProductDetails extends Component {
     render(){
         return(
             <>
-             <div className="mainContai min-vh-100">
+             <div className="mainContai ">
         <div className="mainContai-secound">
         <div className="heraderIcon">
           <span className="iconContainer ">
@@ -33,7 +33,7 @@ export default class ProductDetails extends Component {
           </span>{" "}
           <span className="icontext">- Electronic Components</span>
         </div>
-        <div className="itemName">1030 Flat Mobile Phone Vibration Motor</div>
+        <div className="itemName"><h3>1030 Flat Mobile Phone Vibration Motor</h3></div>
         <div>
           <div className="linehr"></div>
           <div className="linefull"></div>
@@ -177,6 +177,7 @@ export default class ProductDetails extends Component {
                 </button>
               </div>
             </div>
+            
             <hr />
             <div className="add-to-wish-list">
               <div className="add-head-text">

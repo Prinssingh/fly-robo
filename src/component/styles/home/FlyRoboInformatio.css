@@ -26,10 +26,9 @@
     justify-items: center;
 }
 .third-Div{
-    /* border: 2px green solid; */
     background-color:  rgb(49, 59, 78);
     width: 100%;
-    height: 6.5rem;
+    height: auto;
     display: inline-flex;
     justify-content: center;
     justify-items: center;

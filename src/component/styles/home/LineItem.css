@@ -27,9 +27,11 @@
     flex-grow: 0;
     justify-content: flex-start;
     white-space: nowrap;
+   position: relative;
+
 }
 .list :hover{
-    color: aqua;
+    color: rgb(8, 248, 248);
     
 }
 .Quick{
@@ -46,7 +48,15 @@
     font-size: 15px;
     font-weight: bolder;
     cursor: pointer;
-   
+}
+.litag:hover::after{
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 3px;
+    background-color: rgb(28, 43, 247);
+    bottom: -1px;
+    left: 18px;
 }
 .list::-webkit-scrollbar {
     display: none;
@@ -55,7 +65,7 @@
 
   /* Responsive mobile app */
 
-  @media (max-width:600px) {
+  @media (min-width:600px) {
     
 .containe{
     /* border: 2px solid rgb(26, 22, 22); */
@@ -73,10 +83,11 @@
 .contain{
     /* border: 2px solid red; */
     display: flex;
-    width: 98vw;
+    width: 90vw;
     height: 30px;
     justify-items: center;
     margin-top: 1rem;
+    margin-left: 7px;
    /* overflow: hidden; */
    height: 100%;
    display: -webkit-box;
