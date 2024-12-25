@@ -158,7 +158,7 @@ export default class Header extends React.Component {
               </div>
               <div className="header-col-2-containar-2">
                 <div className="blog">
-                  <Link to="./pages/blog/BlogList" className="link">
+                  <Link to="/BlogList" className="link">
                     BLOG
                   </Link>
                 </div>
