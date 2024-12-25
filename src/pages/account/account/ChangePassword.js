@@ -1,32 +1,86 @@
 import React from "react";
+// import { useNavigate } from "react-router-dom";
 import "../../styles/account/ChangePassword.css";
+// import "../../styles/account/EditAccount.css";
 
-export default class ChangePassword extends React.Component {
+class ChangePassword extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      password: "",
+      confirmPassword: "",
+    };
+  }
+
+  handleInputChange = (e) => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
+
+  handleSubmit = () => {
+    const { password, confirmPassword } = this.state;
+    if (password === confirmPassword) {
+
+      console.log("Password changed successfully!");
+    } else {
+      alert("Passwords do not match. Please try again.");
+    }
+  };
+
   render() {
+    const { password, confirmPassword } = this.state;
+    // const navigate = useNavigate();
+
     return (
       <div className="changepassword-page">
-        <h1 className="changepassword-title">
-          <span>Forgot Your Password?</span>
+        <h1 className="changepassword-page-title">
+          <span>Change Password</span>
         </h1>
         <hr />
-        <div className="changepassword-container">
-          <p>
-            Enter the e-mail address associated with your account. Click submit
-            to have a password reset link e-mailed to you.
-          </p>
-          <div className="changepassword-form-group">
-            <h3>Your E-Mail Address</h3>
-            <form>
-            <label for="email">E-Mail Address <span>*</span></label>
-            <input type="email" id="email" placeholder="E-Mail Address" />
-            </form>
+        <div className="changepassword-page-container">
+          <div className="section-title">
+            Your Password
+            <span></span>
           </div>
-          <div className="changepassword-buttons">
-            <button className="back">BACK</button>
-            <button className="continue">CONTINUE</button>
+          <form className="changepassword-page-form" onSubmit={(e) => e.preventDefault()}>
+            <label htmlFor="password" className="changepassword-page-form-label">
+              Password <span className="required">*</span>
+            </label>
+            <input
+              type="password"
+              className="changepassword-page-form-input"
+              id="password"
+              name="password"
+              value={password}
+              onChange={this.handleInputChange}
+              placeholder="Password"
+            />
+
+            <label htmlFor="confirmPassword" className="changepassword-page-form-label">
+              Password Confirm <span className="required">*</span>
+            </label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              value={confirmPassword}
+              onChange={this.handleInputChange}
+              placeholder="Password Confirm"
+              className="changepassword-page-form-input"
+            />
+          </form>
+
+          <div className="changepassword-page-btn">
+            <button type="button" className="back-btn" >
+              BACK
+            </button>
+            <button type="button" className="continue-btn" onClick={this.handleSubmit}>
+              CONTINUE
+            </button>
           </div>
         </div>
       </div>
     );
   }
 }
+
+export default ChangePassword;

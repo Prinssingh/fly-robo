@@ -42,15 +42,15 @@
     margin-bottom: 20px;
 }
 .wishlist-continue-button {
-    background-color: #201596;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 0.856em;
-    width: 100%;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 0.98em;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .wishlist-continue-button:hover{

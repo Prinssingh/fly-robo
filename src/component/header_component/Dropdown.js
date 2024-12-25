@@ -7,11 +7,36 @@ export default class Dropdown extends React.Component {
     super(props);
     this.state = {
       openSubmenu: null,
+      isSticky: false,
     };
+    this.headerRef = React.createRef();
   }
 
+  handleScroll = () => {
+    const headerHeight = this.headerRef.current
+      ? this.headerRef.current.offsetHeight
+      : 0;
+    if (window.scrollY >= headerHeight) {
+      this.setState({ isSticky: true });
+    } else {
+      this.setState({ isSticky: false });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
   render() {
+    const { isSticky } = this.state;
     const { openSubmenu } = this.state;
+    const {
+      onMouseEnterMenu,
+      onMouseLeaveMenu,
+    } = this.props;
 
     const menuItems = [
       {
@@ -68,8 +93,13 @@ export default class Dropdown extends React.Component {
 
     return (
       
-      <div className="dropdown-main">
-        <div className="dropdown-containar">
+      <div className={`dropdown-main ${isSticky ? "dropdown-main-sticky" : ""}`} onMouseEnter={onMouseEnterMenu}
+      onMouseLeave={onMouseLeaveMenu}>
+      <div
+      className="dropdown-containar"
+      onMouseEnter={onMouseEnterMenu}
+      onMouseLeave={onMouseLeaveMenu}
+    >
         <ul className="menu-list">
           {menuItems.map((item, index) => (
             <li className="mainlink"
@@ -101,7 +131,8 @@ export default class Dropdown extends React.Component {
           ))}
         </ul>
         </div>
-      </div>
+        </div>
+      
     );
   }
 }

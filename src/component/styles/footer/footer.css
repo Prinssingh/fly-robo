@@ -273,6 +273,8 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 0.875rem;
+  box-shadow: none;
+  border: 1px solid #6c757d;
 }
 
 .email-input:focus {
@@ -304,6 +306,7 @@
 
 .privacy-checkbox input[type="checkbox"] {
   margin-top: 0.25rem;
+  box-shadow: none;
 }
 
 .privacy-checkbox label {

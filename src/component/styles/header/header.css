@@ -69,11 +69,13 @@
     width: 26rem;
   }
   
-  .search-input {
+  .header-search-input {
     width: 100%;
+    letter-spacing: 0.5px;
     font-size: 0.875rem;
     border-radius: 4px 0 0 4px;
     padding: 0.625rem 1rem;
+    box-shadow: none;
     padding-left: 10px;
   }
   
@@ -225,13 +227,15 @@
   }
   
   .header-row-2 {
-    position: sticky;
     width: 100%;
     background-color: rgba(58, 71, 84, 1);
     height: 2.688rem;
+    top: 0;
+    z-index: 100;
   }
   .header-row-2-containar {
     max-width: 80rem;
+  
     margin: 0 auto 0 auto;
     height: auto;
     justify-content: center;
@@ -240,11 +244,23 @@
     display: flex;
   }
   
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
   .menu {
     width: 80%;
     align-items: center;
     /* overflow: hidden; */
     position: relative;
+
   }
   
   .menu-button {
@@ -266,7 +282,14 @@
     margin-left: 0.398rem;
   }
   
-
+  
+  
+  .menu-button.dropdown-active {
+    background-color: aquamarine;
+  }
+  
+  
+  
 
   .header-col-2-containar-2 {
     width: 20%;
@@ -283,7 +306,6 @@
     padding-bottom: 0.625rem;
     padding-top: 0.625rem;
     margin: 0;
-    /* transition: background-color 5s ease; */
     background: rgba(254, 212, 48, 1);
   }
   
@@ -295,7 +317,7 @@
     padding-bottom: 0.625rem;
     padding-top: 0.625rem;
     margin: 0;
-    /* transition: background-color 0.1s all; */
+    transition:  0.1s all;
     background-color: rgba(247, 226, 83, 1);
   }
   
@@ -419,7 +441,7 @@
     /* display: inline-flex; */
     background-color: white;
     top: 59%;
-    z-index: 1;
+    z-index: 2000;
     justify-content: center;
     align-items: center;
     width: 25%;
@@ -456,21 +478,10 @@
     display: inline-flex;
     }
   
+    
 
-  .drpdown-main{
-    width: 100%;
-    z-index: 10;
-    position: absolute;
-    height: 100vh;
-    background-color: black;
-  }
+  
+  
 
-
-  .dropdown-containar{
-    max-width: 1280px;
-    background-color: #b32b2b;
-    height: 100vh;
-    margin: 0 auto;
-  }
   
   

@@ -143,11 +143,11 @@
     font-weight: bold;
   }
   .form-group input {
-    /* width: %; */
     flex: 1 ;
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 5px;
+    box-shadow: none;
   }
   .form-group input:focus {
     border-color: #80bdff;

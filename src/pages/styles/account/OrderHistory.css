@@ -1,0 +1,62 @@
+.orderhistory-page {
+    width: 100%;
+    padding-top: 2%;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 0.99rem;
+    background: rgba(248, 248, 248, 1);
+  }
+  
+  .orderhistory-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .orderhistory-title {
+    max-width: 1280px;
+    padding: 7px;
+    font-size: 1.955rem;
+    font-weight: 700;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .orderhistory-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 0.4vh;
+    top: 100%;
+    /* border-radius: 15%; */
+    transform: translateY(100%);
+    background-color: #e82c2c;
+  }
+
+  
+
+
+
+.orderhistory-text-empty {
+    font-size: 1em;
+    color: #242424;
+    margin-bottom: 20px;
+}
+.orderhistory-continue-button {
+  background-color: #0f3a8d;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 0.98em;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.orderhistory-continue-button:hover{
+  box-shadow: 0px 10px 15px rgba(4, 8, 244, 0.126);
+  background-color: blue;
+}

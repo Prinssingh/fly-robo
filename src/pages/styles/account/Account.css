@@ -1,23 +1,32 @@
-.account-page{
+:root {
+    --primary-color: #e82c2c;
+    --link-color: #0f3a8d;
+    --text-color: #666;
+}
+
+.account-page {
     width: 100%;
+    background: rgba(248, 248, 248, 1);
 }
 
-.account-container{
-   max-width: 1280px;
-   margin: 0 auto;
-   padding-bottom: 2.5%;
+.account-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 2.5%;
+    padding-top: 1%;
 }
 
-.accountpage-title{
- max-width: 1280px;
- padding: 7px;
- font-size: 1.955rem;
- font-weight: 700;
- position: relative;
- margin: 0 auto;   
+.accountpage-title {
+    max-width: 1280px;
+    padding: 7px;
+    font-size: 1.955rem;
+    font-weight: 700;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 1.5%;
 }
 
-.accountpage-title::after{
+.accountpage-title::after {
     content: "";
     position: absolute;
     display: block;
@@ -26,59 +35,97 @@
     top: 100%;
     border-radius: 15%;
     transform: translateY(80%);
-    background-color: #e82c2c;
+    background-color: var(--primary-color);
 }
 
 .account-card-container {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
+
 .account-section {
     margin-bottom: 40px;
 }
+
 .account-section .account-section-title {
     font-size: 20px;
     margin-left: 10px;
     margin-bottom: 20px;
 }
-.card {
-    width: 18%;
+
+.account-card {
+    width: 260px;
     margin: 10px;
-    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    /* text-align: center; */
     display: grid;
     align-items: center;
+    gap: 15px;
+    text-decoration: none;
     justify-content: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.card .card-icon {
+
+
+.account-section .account-card .card-icon {
     font-size: 36px;
-    color: #666;
+    color: var(--text-color);
     display: flex;
     justify-self: center;
     margin-top: 20px;
 }
-.card p {
+
+.account-card .account-card-text {
     font-size: 12px;
-    color: #666;
+    font-weight: 600;
+    color: var(--text-color);
+    transition: all .3S;
 }
-.card a {
+
+.account-card:hover .account-card-text{
+    color: var( --link-color);
+}
+
+
+
+.account-card a {
     text-decoration: none;
-    color: #007bff;
+    color: var(--link-color);
     font-weight: bold;
 }
 
-
-.card:hover {
+.account-card:hover {
+    background-color: #fff;
     box-shadow: 
     5px 20px 20px rgba(0, 0, 0, 0.10),
     -5px 20px 20px rgba(0, 0, 0, 0.10),
     5px -5px 20px rgba(0, 0, 0, 0.10),
-    -5px -5px 20px rgba(0, 0, 0, 0.10);
+        -5px -5px 20px rgba(0, 0, 0, 0.10);
 }
 
+.account-card a:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+}
 
+@media (max-width: 1022px) {
+    .account-card {
+        
+        width: 320px;
+        margin: 10px;
+    }
+
+    .account-card-container {
+        width: 100%;
+        flex-wrap: wrap; 
+    }
+}
+
+@media (max-width: 768px) {
+    .account-card {
+        flex: 1 1  33.33%; 
+        margin: 10px ;
+    }
+}

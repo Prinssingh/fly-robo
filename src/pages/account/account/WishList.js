@@ -5,7 +5,7 @@ export default class WishList extends React.Component {
     return (
       <div className="wishlist-page">
         <h1 className="wishlist-title">
-          <span>Shopping Cart</span>
+          <span>Shopping Cart {this.props.h1}</span>
         </h1>
         <hr />
         <div className="wishlist-container">
@@ -13,6 +13,7 @@ export default class WishList extends React.Component {
         <div className="wishlist-text-empty">Your wish list is empty.</div>
         <button className="wishlist-continue-button">CONTINUE</button>
         </div>
+      
       </div>
     );
   }

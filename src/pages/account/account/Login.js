@@ -97,7 +97,7 @@ export default class Login extends React.Component {
                 )} */}
               </div>
               <div className="form-group">
-                <Link to="/pages/account/account/ChangePassword">Forgotten Password</Link>
+                <Link to="/pages/account/account/ForGetpassward">Forgotten Password</Link>
               </div>
               <button type="submit" className="btn">
                 LOGIN

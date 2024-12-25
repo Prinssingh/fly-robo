@@ -104,6 +104,7 @@
   font-size: 0.875rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
+  box-shadow: none;
 }
 .form-group a {
   font-size: 0.75rem;
