@@ -44,6 +44,11 @@ function App() {
           <Route path="/pages/account/account/WishList" element={<WishList/>} />
           <Route path="/pages/account/ShoppingCart" element={<ShoppingCart/>} />
           <Route path="/pages/account/account/ChangePassword" element={<ChangePassword/>} />
+<<<<<<< shubhashni
+=======
+          <Route path="/pages/blog/BlogDetails" element={<BlogDetails/>}/>
+
+>>>>>>> local
         </Routes>
       </main>
 

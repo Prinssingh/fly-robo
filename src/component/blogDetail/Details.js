@@ -1,16 +1,20 @@
 import React,{Component} from "react";
 import Coments from "./Coments";
 import '../styles/blog/BlogDetail.css';
+import SearchBlog from "../searchBlog/SearchBlog";
 class Details extends Component {
     state = {  } 
     render() { 
         return (
-            <div className="Details-box">
-
-            <div className="Details">
-                <div className=""style={{fontSize:'30px',fontWeight:'750'}}>
+            <div className="d-flex justify-content-between">
+            <div className="Details-boxx"style={{ maxWidth:"auto",maxHeight:"aoto",justifyContent:"center",alignItems:"center",margin:"0 auto"}}>
+                
+                 {/* <div className=""style={{fontSize:'30px',fontWeight:'750'}}>
                     Building a DIY Angle Measurement Device with Arduino and MPU6050
-                </div>
+                </div> */}
+                <hr style={{width:"100%"}} />
+            <div className="Detailss">
+               
                 <div className="image">
                     <img src=" https://www.flyrobo.in/image/cache/wp/gj/blog/Building%20a%20DIY%20Angle%20Measurement%20Device%20with%20Arduino%20and%20MPU6050/Building%20a%20DIY%20Angle%20Measurement%20Device%20with%20Arduino%20and%20MPU6050-1060x400h.webp"/>
                 </div>
@@ -49,12 +53,19 @@ class Details extends Component {
                     
                     </div>
                 </div>
-
+                </div>
+                
+ {/* ----calling cimment.js here--- */}
                 <div className="comnts-call">
                     <Coments/>
                 </div>
-               
+  {/* ----calling searchBlog.js here---  */}
+                
+                <div className=" DetailSearch">
+                    <SearchBlog />
+                </div>
             </div>
+            
         </div>
         );
     }

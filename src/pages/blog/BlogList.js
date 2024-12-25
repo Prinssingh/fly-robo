@@ -1,24 +1,54 @@
 import React,{Component} from "react";
+// import "../styles/blog/BlogList.css";
+import "../../component/styles/blog/BlogList.css";
+
 import CardList from "../../component/blogList/CardList";
 import SearchBlog from "../../component/searchBlog/SearchBlog";
+<<<<<<< shubhashni
 // import Pagination from "../../component/Pagination/Pagination";
+=======
+import PaginationApp from "../../component/Pagination/PaginationApp";
+import SearchSlide from "../../component/searchBlog/SearchSlide";
+>>>>>>> local
 class BlogList extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
-               <div className="d-flex justify-content-between">
-                <div >
-                    < CardList/>
+            <>           
+            <div className="container-fluid bloglistFirstPage " style={{width:"100%"}}>
+               
+                <div style={{width:'100%', color:'#333333'}}>
+                <div className="row">
+                    <div className="col-12">
+                    <h1 className="fly-M text-center text-md-start mb-3">FlyRobo Blog</h1>
+                    <hr className="mb-4" />
+                    </div>
                 </div>
-                <div className="blogSearch ">
-                    < SearchBlog/>
+                    {/* <hr style={{width:"100%",marginLeft:"0px",marginRight:"0px",marginTop:"-1px",marginBottom:"35px"}}/> */}
+                    <div className="d-flex cardMainList justify-content-between">
+                    <div >
+                        < CardList/>
+                    </div>
+                    
+                    <div className="blogSearch md-8">
+                        <SearchBlog />
+                    </div>
+                    
+                    
+                    </div>
+                </div>   
+                <div className="pagination "style={{width:"76.1%",backgroundColor:"#9bd4aa"}}>
+                <SearchSlide/>
+                <div id="SlideNo">
+                    
+                     Showing 1 to 10 of 146 (15 Pages)
                 </div>
-                <div className="pagination ">
-                    {/* <Pagination/> */}
-                </div>
-                </div>
-         </div>
+                    
+                        {/* <PaginationApp/> */}
+                    </div> 
+            </div>
+            </>
+
         );
     }
 }
