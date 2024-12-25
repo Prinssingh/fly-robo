@@ -13,7 +13,12 @@ import Logout from "./pages/account/account/Logout";
 import Register from "./pages/account/account/Register";
 import ShoppingCart from "./pages/account/ShoppingCart";
 import BlogList from "./pages/blog/BlogList";
+<<<<<<< HEAD
 // import BlogDetails from "./pages/blog/BlogDetails";
+=======
+import BlogDetails from "./pages/blog/BlogDetails";
+import WishList from "./pages/account/account/WishList";
+>>>>>>> shubhashni
 import ChangePassword from "./pages/account/account/ChangePassword";
 import EditAccount from "./pages/account/account/EditAccount";
 import ForGetpassward from "./pages/account/account/Forgetpassward";
@@ -37,6 +42,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
+<<<<<<< HEAD
           <Route path="/pages/account/account/Account" element={<Account />} />
           <Route path="/pages/account/account/Logout" element={<Logout />} />
           <Route path="/pages/account/account/Login" element={<Login />} />
@@ -100,6 +106,23 @@ function App() {
 
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
           <Route path="/productdetails" element={<ProductDetails/>}/>
+=======
+          <Route path ="/pages/account/account/Account" element={<Account/>} />
+          <Route path ="/pages/account/account/Logout" element={<Logout/>} />
+          <Route path ="/pages/account/account/Login" element={<Login/>} />
+          <Route path ="/pages/account/account/Register" element={<Register/>} />
+          <Route path="/BlogList" element={<BlogList />} />
+          <Route path="/BlogDetails" element={<BlogDetails />} />
+          <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} />
+          <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
+          <Route path="/pages/account/account/Login" element={<Login/>} />
+          <Route path="/pages/account/account/Account" element={<Account/>} />
+          <Route path="/pages/account/account/Register" element={<Register/>} />
+          <Route path="/pages/account/account/WishList" element={<WishList/>} />
+          <Route path="/pages/account/ShoppingCart" element={<ShoppingCart/>} />
+          <Route path="/pages/account/account/ChangePassword" element={<ChangePassword/>} />
+          <Route path="/pages/blog/BlogDetails" element={<BlogDetails/>}/>
+>>>>>>> shubhashni
 
 
         </Routes>
