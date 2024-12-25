@@ -36,7 +36,7 @@ function App() {
           <Route path ="/pages/account/account/Register" element={<Register/>} />
           <Route path="/BlogList" element={<BlogList />} />
           <Route path="/BlogDetails" element={<BlogDetails />} />
-          <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} /> 
+          <Route path ="/pages/account/ShoppingCart" element={<ShoppingCart/>} />
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
           <Route path="/pages/account/account/Login" element={<Login/>} />
           <Route path="/pages/account/account/Account" element={<Account/>} />
@@ -44,6 +44,8 @@ function App() {
           <Route path="/pages/account/account/WishList" element={<WishList/>} />
           <Route path="/pages/account/ShoppingCart" element={<ShoppingCart/>} />
           <Route path="/pages/account/account/ChangePassword" element={<ChangePassword/>} />
+          <Route path="/pages/blog/BlogDetails" element={<BlogDetails/>}/>
+
 
         </Routes>
       </main>
