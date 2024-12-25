@@ -13,12 +13,8 @@ import Logout from "./pages/account/account/Logout";
 import Register from "./pages/account/account/Register";
 import ShoppingCart from "./pages/account/ShoppingCart";
 import BlogList from "./pages/blog/BlogList";
-<<<<<<< HEAD
-// import BlogDetails from "./pages/blog/BlogDetails";
-=======
+
 import BlogDetails from "./pages/blog/BlogDetails";
-import WishList from "./pages/account/account/WishList";
->>>>>>> shubhashni
 import ChangePassword from "./pages/account/account/ChangePassword";
 import EditAccount from "./pages/account/account/EditAccount";
 import ForGetpassward from "./pages/account/account/Forgetpassward";
@@ -26,8 +22,6 @@ import WishList from "./pages/account/account/WishList";
 import Address from "./pages/account/Address/Address";
 import AddNewAddress from "./pages/account/Address/AddNewAddress";
 import OrderHistory from "./pages/account/OrderHistory";
-// import WishList from "./pages/account/account/WishList";
-// import WishList from "./pages/account/account/WishList";
 import ProductDetails from "./pages/ProductDetails";
 
 
@@ -42,7 +36,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
-<<<<<<< HEAD
           <Route path="/pages/account/account/Account" element={<Account />} />
           <Route path="/pages/account/account/Logout" element={<Logout />} />
           <Route path="/pages/account/account/Login" element={<Login />} />
@@ -106,7 +99,7 @@ function App() {
 
           <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
           <Route path="/productdetails" element={<ProductDetails/>}/>
-=======
+
           <Route path ="/pages/account/account/Account" element={<Account/>} />
           <Route path ="/pages/account/account/Logout" element={<Logout/>} />
           <Route path ="/pages/account/account/Login" element={<Login/>} />
@@ -122,8 +115,6 @@ function App() {
           <Route path="/pages/account/ShoppingCart" element={<ShoppingCart/>} />
           <Route path="/pages/account/account/ChangePassword" element={<ChangePassword/>} />
           <Route path="/pages/blog/BlogDetails" element={<BlogDetails/>}/>
->>>>>>> shubhashni
-
 
         </Routes>
       </main>

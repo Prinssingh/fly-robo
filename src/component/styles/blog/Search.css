@@ -1,20 +1,193 @@
+
 .Container2{
-    /* border: solid 5px red; */
-    width: 15rem;
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    color: white;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 820px; */
+    /* width: 260px; */
+    padding: 0.2%;
     box-shadow: 0.01rem 0.01rem 0.1rem rgba(128, 128, 128, 0.836);
+    /* background-color: rgba(248, 244, 246, 0.89); */
+}
+@media screen and (max-width: 6090px) {
+    .Container2-M {
+      /* width: 100%;
+      margin: auto; */
+      background-color: rgb(226, 107, 9);
+      display: none;
+    }
+}
+
+
+#SearchB1{
+    width: 94.4%;
+    /* width: 12rem; */
+    /* height: 2rem; */
+    /* height: 0.4%; */
+    font-size: 14px; 
+    border-radius: 2px;
+    cursor: text;
+    background-color: white;
+    /* position: absolute; */
+    display: flex;
 }
 input{
+    height: 2rem;
     margin-left: 0.4rem;
     border: 1px solid gray;
     box-shadow: 0.01rem 0.01rem 0.5rem rgba(128, 128, 128, 0.836);
     border-radius: 0.1rem;
+    border: none;
     font-weight: 400;
     letter-spacing: -1px;    
 }
-button{
+.BtnIcon{
+    height: 2rem;
     background-color: rgb(23, 23, 211);
     color: white;
+    border: none;
+    width: 2.4rem;
 }
 #blog{
     margin: 1.5rem;
+}
+.latest{
+    margin-left: 4rem;
+    content: "";
+    top: 28%;
+    /* left: 40%; */
+    /* transform: rotate(180deg); */
+    position: absolute;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid blue;
+
+}
+.most{
+    height: 2.5rem;
+    margin-left: 4rem;
+    background-color: rgba(82, 82, 82, 0.11);
+    color: gray;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.5rem;
+}
+.most:hover{
+    background-color: rgb(23, 23, 211);
+    border-radius: 0.1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+.searchInput{
+    width: 100%;
+    /* width: 13rem; */
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+    outline: none;
+    border: solid 1px #E2E2E2;
+    /* background-color: #0F3A8D; */
+}
+#searchBtn{
+    width:21%;
+    /* width: 6rem; */
+    /* height: 2rem; */
+    height:90%;
+    cursor: pointer;
+    background-color: #0F3A8D;
+    border-radius: 2px;
+    align-items: center;
+    font-size: 19px;
+    /* font-size: 1.5rem; */
+    color: white;
+    border: solid 1px #E2E2E2;
+}
+#searchBtn:hover{
+    background-color: #3e6dca;
+    
+}
+#SearchB2{
+    width:26%   ;
+    /* width: 16rem; */
+    /* border: solid 1px red; */
+    /* padding: 1rem; */
+    align-items: center;
+   
+}
+.letestBlog{
+    /* width: 229px; */
+    width: 16rem;
+    height :80px;
+    /* border: solid 1px red; */
+}
+#L-P{
+    /* width: 129px; */
+    width: 10rem;
+    height: 39px;
+    background-color: #0D52D6;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-top-left-radius:7px ;
+    border-bottom-left-radius: 7px;
+    margin-left: 2.60rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    z-index: 1;
+    position: relative;
+    border-bottom: 5px solid #0D52D6;
+}
+#L-P::after{
+    content:'';
+    position: absolute;
+    top: 100;
+    transform: translateY(100%);
+    right: 80;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 22px solid #0c0c0c;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+.R-M{
+    width: 52.8%;
+    /* width: 8rem; */
+    /* height: 38px; */
+    height: 60.4%;
+    background-color: #E2E2E2;
+    font-size: 15px;
+    font-weight: 700;
+    color: #696973;
+    border-top-right-radius:7px ;
+    border-bottom-right-radius: 7px;
+    /* margin-left: 3.40rem; */
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 0.4rem;
+    z-index: 1;
+}
+
+@media screen and (width < 831px) {
+    .R-M {
+      /* width: 100%; */
+      margin: auto;
+      /* background-color: rgb(226, 107, 9); */
+    }
+}
+.R-M:hover{
+    /* background-color: #0D52D6; */
+    color: #FFFFFF;
+    height: 37px;
+}
+.B2List{
+    /* margin: 1.5rem; */
+    margin: 50%;
+    /* margin-top: 2.90rem; */
+    margin-top: 5%;
+
 }
