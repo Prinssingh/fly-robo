@@ -1,41 +1,102 @@
 
-.img{
-    background-size: cover;
-    
-    height: 450px;
-    border-radius: 15px;
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
 }
-.curoseldiv{
-    background-size: cover;
-    /* border: 2px solid red; */
-    display: flex;
-    width: 935px;
-    height: 450px;
-    border-radius: 15px;
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  /* border:2px solid red; */
+  margin: 5px;
+
 }
+
+
+.secdiv {
+  background-size: cover;
+  width: 100%;
+  height:auto;
+
+}
+.secdiv img{
+  border-radius: 10px;
+}
+.textComponent {
+  font-size: 1rem;
+}
+
+.textHeader {
+  font-size: 1.1rem;
+}
+.main{
+  margin: 5px;
+  position:relative;
+  overflow: hidden;
+
+}
+
+
+/* .rightCarousel{
+  border: 2px solid red;
+  width:auto;
+  height:auto;
+}  */
+.text-on-image {
+  position: absolute;
+  right: 5px;
+  left: 15px;
+  top: 25px;
+}
+
+.text-on-image1 {
+  position: absolute;
+  right: 5px;
+  left: 15px;
+  top: 28px;
+}
+
 @media only screen and (max-width:600px) {
-  
-.img{
-    background-size: cover;
-    width: 100%;
-    height:100%;
-    border-radius: 15px;
+
+
+  .textComponent {
+      font-size: 1rem;
+  }
+
+  .textHeader {
+      font-size: 1.1rem;
+  }
+  .rightCarousel:hover> :not(:hover) {
+      opacity: 0.8;
+
+  }
+
+}
+@media (max-width:650px) {
+  .rightCarousel{
+      display: flex;
+      gap: 1rem;
+  }   
 }
 
-.curoseldiv{
-    background-size: cover;
-    /* border: 2px solid red; */
-    display: flex;
-    width: 35.5rem;
-    height: 17rem;
-    border-radius: 15px;
-    padding: 5px;
-    margin-left: 6px;
-    position: relative;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    flex-wrap: wrap;
-} 
-
-
+@media (max-width:770px) {
+.mainContainer{
+  display: flex;
+  /* justify-content: center; */
+  gap: 2rem;
+  flex-direction: column;
+}
+.rightCarousel{
+  display: flex;
+  justify-content: space-around;
+}
+  
+}
+@media (min-width:768px)and (max-width:1250px) {
+  .rightCarousel{
+    display: none;
+  }
 }

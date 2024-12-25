@@ -23,6 +23,7 @@ import AddNewAddress from "./pages/account/Address/AddNewAddress";
 import OrderHistory from "./pages/account/OrderHistory";
 // import WishList from "./pages/account/account/WishList";
 // import WishList from "./pages/account/account/WishList";
+import ProductDetails from "./pages/ProductDetails";
 
 
 function App() {
@@ -50,7 +51,7 @@ function App() {
 
           
           <Route path="/BlogList" element={<BlogList />} />
-          
+        
           <Route
             path="/DeliveryInformation"
             element={<DeliveryInformation />}
@@ -96,6 +97,10 @@ function App() {
           />
           
            <Route path="/pages/account/OrderHistory" element={<OrderHistory/>}/>
+
+          <Route path="/DeliveryInformation" element={<DeliveryInformation />} />
+          <Route path="/productdetails" element={<ProductDetails/>}/>
+
 
         </Routes>
       </main>
