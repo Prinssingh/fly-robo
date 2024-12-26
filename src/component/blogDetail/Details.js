@@ -7,12 +7,15 @@ class Details extends Component {
     render() { 
         return (
             <div className="d-flex justify-content-between">
-            <div className="Details-boxx"style={{ maxWidth:"auto",maxHeight:"aoto",justifyContent:"center",alignItems:"center",margin:"0 auto"}}>
+            <div className="Details-boxx"style={{ maxWidth:"auto",maxHeight:"aoto",justifyContent:"center",alignItems:"center",margin:"0 auto",backgroundColor:"#fcf6e8"}}>
                 
                  {/* <div className=""style={{fontSize:'30px',fontWeight:'750'}}>
                     Building a DIY Angle Measurement Device with Arduino and MPU6050
                 </div> */}
-                <hr style={{width:"100%"}} />
+                <h2>
+                Building a DIY Angle Measurement Device with Arduino and MPU6050
+                </h2>
+                <hr style={{width:"113%",marginLeft:'-7%'}} />
             <div className="Detailss">
                
                 <div className="image">
@@ -56,14 +59,14 @@ class Details extends Component {
                 </div>
                 
  {/* ----calling cimment.js here--- */}
-                <div className="comnts-call">
+                {/* <div className="comnts-call">
                     <Coments/>
-                </div>
+                </div> */}
   {/* ----calling searchBlog.js here---  */}
                 
-                <div className=" DetailSearch">
+                {/* <div className=" DetailSearch">
                     <SearchBlog />
-                </div>
+                </div> */}
             </div>
             
         </div>

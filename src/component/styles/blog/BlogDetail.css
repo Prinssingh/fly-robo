@@ -1,7 +1,7 @@
 .Details-boxx{
     align-items: center;
     margin: 0 auto;   
-    border: solid 1px red;
+    /* border: solid 1px red; */
     /* padding: 3rem; */
     width: 1200px;
     height: 100%;
@@ -9,7 +9,7 @@
    
 }
 .Detailss{
-    border: solid 1px greenyellow;
+    /* border: solid 1px greenyellow; */
     /* width: 75%; */
     width:940px;
     /* margin: 3rem; */
@@ -18,7 +18,7 @@
 .Coment-call{
     width: 80%;
     height: 100%;
-    border: solid 1px green ;
+    /* border: solid 1px green ; */
     bottom: 0%;
     position: absolute;
 }

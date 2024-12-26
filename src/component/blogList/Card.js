@@ -16,7 +16,7 @@ class Card extends Component {
     return (
       <div className="card"style={{height:"370px",border:"none"}}>
         {/* --mistake by imageBox so change it-- */}
-        <div className="imageBox">
+        <div className="imageBox1">
 
           <div className="imgstiker">
             

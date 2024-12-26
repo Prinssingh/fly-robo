@@ -4,8 +4,12 @@ import "../../component/styles/blog/BlogList.css";
 
 import CardList from "../../component/blogList/CardList";
 import SearchBlog from "../../component/searchBlog/SearchBlog";
+
+// import Pagination from "../../component/Pagination/Pagination";
+
 import PaginationApp from "../../component/Pagination/PaginationApp";
 import SearchSlide from "../../component/searchBlog/SearchSlide";
+
 class BlogList extends Component {
     state = {  } 
     render() { 
