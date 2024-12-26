@@ -14,7 +14,7 @@ const Curosel = () => {
     }
   return (
     <>
- <div className="d-flex g-3 mainContainer" onClick={OpenLink}>
+ <div className="d-flex g-3 mainContainer mb-5" onClick={OpenLink}>
   <div className="curoseldiv" >
         <Carousel data-bs-theme="dark" className="flex-image">
           <Carousel.Item>
