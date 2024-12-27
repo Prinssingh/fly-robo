@@ -14,17 +14,16 @@ class Card extends Component {
   }
   render() {
     return (
-      <div className="card"style={{height:"370px",border:"none"}}>
+      <div className="card">
         {/* --mistake by imageBox so change it-- */}
-        <div className="imageBox1">
+        <div className="S_imageBox">
 
           <div className="imgstiker">
-            
-            {/* <Bs1SquareFill className="stiker-1" /> */}
             <p style={{color:"white"}}><b style={{marginLeft:"4px"}}>01</b> Nov</p>
           </div>
 
-          <img src={this.props.src} className="cardImage" />
+          <img src={this.props.src} className="S_cardImage" />
+          
           <div id="imgtext">
             <FaUser />
             khatan
@@ -34,16 +33,16 @@ class Card extends Component {
           </div>
         </div>
         {/* <br/> */}
-        <div className="card-content">
+        <div className="S_card-content">
           <div style={{ color:"red"}} >
-          <p className="cardtitle">{this.props.name}</p>
+          <p className="S_cardtitle">{this.props.name}</p>
           </div>
-          <p className="cardIntro">{this.props.Introduction}</p>
+          <p className="S_cardIntro">Introduction: {this.props.Introduction}</p>
         </div>
 
         <Link to="/pages/blog/BlogDetails">
             <p>
-            <span className="readmore">ReadMore <GoArrowRight  /></span> 
+             <span className="readmore">ReadMore <GoArrowRight  /></span> 
             </p>
         </Link>
       </div>

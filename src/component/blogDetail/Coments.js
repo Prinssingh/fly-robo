@@ -12,30 +12,21 @@ class Coments extends Component {
 
                 <div className="Coments">
 
-                    <div className="coment-tag ">                
-                        {/* <Badge variant="primary" className="mr-2">
-                            Primary
-                        </Badge> */}
-                        <b>Tags:</b>
-                        <a className="productLink" href="#" class="badge badge-primary">mpu6050</a>
-                        <a href="#" class="badge badge-secondary">Arduino</a>
-                        <a href="#" class="badge badge-success">project</a>
-                        <a href="#" class="badge badge-danger">school</a>
-                        <a href="#" class="badge badge-warning">angle</a>
-                        <a href="#" class="badge badge-info">maping</a>
-                    </div>
+                   
                     <span className="comt"style={{fontWeight:'700',fontSize:'20px'}}>
                         <u> Leave a Comment -</u>
                     </span>
                     <div className="UserInput">
                         <div className="name">
-                                Your Name* <input type="text" />
+                                Your Name* <input type="text" style={{marginLeft:"1rem"}}/>
                         </div>
+                        <br/>
                         <div className="Email">
-                                Email * <input type="text" />
+                                Email * <input type="text" style={{marginLeft:"3.2rem"}}/>
                         </div>
+                        <br/>
                         <div className="Coment">
-                                Coments*  <input type="text" aria-atomic/>
+                                Coments*  <input type="text" aria-atomic style={{marginLeft:"2rem"}}/>
                         </div>
                     </div>
                     

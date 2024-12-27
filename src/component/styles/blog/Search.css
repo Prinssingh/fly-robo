@@ -23,7 +23,7 @@
 }
 
 
-#SearchB1{
+#S_Search1{
     width: 94.4%;
     /* width: 12rem; */
     /* height: 2rem; */
@@ -35,18 +35,21 @@
     /* position: absolute; */
     display: flex;
 }
-input{
-    height: 2rem;
+.S_SearchInput{
+    /* height: 2rem; */
     margin-left: 0.4rem;
-    border: 1px solid gray;
+    width: 13rem;
+    border:none;
+    color: #080808;
     box-shadow: 0.01rem 0.01rem 0.5rem rgba(128, 128, 128, 0.836);
     border-radius: 0.1rem;
-    border: none;
-    font-weight: 400;
-    letter-spacing: -1px;    
+    padding-left: 5px;
+    font-weight: 500;
+    /* letter-spacing: -1px;     */
+    /* background-color: #0F3A8D; */
 }
-.BtnIcon{
-    height: 2rem;
+S_Icon{
+    /* height: 2rem; */
     background-color: rgb(23, 23, 211);
     color: white;
     border: none;
@@ -154,19 +157,17 @@ input{
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
 }
-.R-M{
+.S_RM{
     width: 52.8%;
-    /* width: 8rem; */
-    /* height: 38px; */
-    height: 60.4%;
+    height:  37px;
     background-color: #E2E2E2;
     font-size: 15px;
     font-weight: 700;
     color: #696973;
     border-top-right-radius:7px ;
     border-bottom-right-radius: 7px;
-    /* margin-left: 3.40rem; */
     margin-left: 20%;
+    margin-top: 1rem;
     text-align: center;
     padding-top: 0.4rem;
     z-index: 1;
@@ -174,20 +175,16 @@ input{
 
 @media screen and (width < 831px) {
     .R-M {
-      /* width: 100%; */
       margin: auto;
       /* background-color: rgb(226, 107, 9); */
     }
 }
-.R-M:hover{
-    /* background-color: #0D52D6; */
+.S_RM:hover{
+    background-color: #0D52D6;
     color: #FFFFFF;
     height: 37px;
 }
 .B2List{
-    /* margin: 1.5rem; */
-    margin: 50%;
-    /* margin-top: 2.90rem; */
-    margin-top: 5%;
-
+     margin-left: 1.5rem; 
+    margin-top: 15%;
 }

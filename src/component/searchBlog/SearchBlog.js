@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Card from "../blogList/Card";
 import "../styles/blog/Search.css";
-import Slider from "react-slick";
-import { IoSearchSharp } from "react-icons/io5";
+import { FaSearch } from 'react-icons/fa'
 import SearchSlide from "./SearchSlide";
 import PaginationApp from "../Pagination/PaginationApp";
 class SearchBlog extends Component {
@@ -21,42 +20,31 @@ class SearchBlog extends Component {
     const Products = this.list();
     return (
       <div className="Container2">
-        <div id="SearchB1">
-          <input
-            className="searchInput"
-            type="text"
-            placeholder="Blog Search. . . ."
-          />
-
-          <div id="searchBtn">
-            <p style={{ marginLeft: "1.6%" }}>
-              <IoSearchSharp />
-            </p>
-          </div>
-        </div>
-
-        <div id="SearchB2">
-          <div className="letestBlog">
-            {/* <button
-              type="button"
-              class="btn btn-secondary"
-              data-toggle="tooltip"
-              data-placement="bottom"
-              title="Tooltip on bottom"
-            >
-              Tooltip on bottom
-            </button> */}
+          <div id="S_Search1">
             
-            {/* <div class="tooltip-container">
-        <button class="tooltip-button">Hover me</button>
-        <span class="tooltip-text">This is a tooltip!</span>
-    </div> */}
-    
+            <br/>
 
+            <div className="d-flex " style={{width:"150%"}}>
+              <input
+                type="text"
+                placeholder="Blog Search. . . ."
+                className="S_SearchInput  pl-10 pr-4 py-2  "
+                // style={{border:"solid 2px gray",borderRadius:"3px",width:"13rem",paddingLeft:"5px "}}
+              />
 
-    <br/><br/><br/><br/><br/>
-            <div className="R-M">MOST READ</div>
+              {/* --------Search Icon--------- */}
+              <div className="absolute inset-y-0 right-0 pl-3 flex items-center "
+              style={{backgroundColor:"blue",width:"15%",textAlign:"center",paddingTop:"3px",fontSize:"20px",cursor:"pointer",borderRadius:"3px"}}>
+                <FaSearch className="h-5 w-5 text-gray-400 "  />
+                {/* <FaSearch /> */}
+              </div>
+            </div>
           </div>
+
+            <div className="S_RM">
+              Read Most
+            </div>
+        
           <div className="B2List">
             {Products.map((Product) => (
               <Card
@@ -69,13 +57,12 @@ class SearchBlog extends Component {
             {/* ----- react-slick---- */}
             <div className="react-slick">
               
-              
             {/* <PaginationApp/>             */}
              
             </div>
           </div>
         </div>
-      </div>
+     
     );
   }
 }

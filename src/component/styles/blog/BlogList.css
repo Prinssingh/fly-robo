@@ -1,62 +1,7 @@
- /* -----all list name with id------ */
+/* -----all list name with id------ */
  /* -----all card name with className----- */
- @media screen and (width < 1115px) {
-  .cardMainList {
-    width: 100%;
-    background-color: lightblue;
-  }
-}
- @media screen and (width < 832px) {
-  .cardMainList {
-    width: 100%;
-    margin: 0;
-    /* background-color: rgb(226, 107, 9); */
-  }
-/* 
-  #container{
-    width: 90%;
-  } */
-}
-.bloglistFirstPage{
-  width: 100%;
-  justify-content: center;
-  max-width: auto;
-  max-height: auto;
-  align-items: center;
-  margin: 0 auto;
-}
-@media screen and (width < 200px) {
-  .bloglistFirstPage {
-    width: 100%;
-    margin: 0;
-    /* background-color: rgb(226, 107, 9); */
-  }
-}
 
- .fly-M{
-  /* background-color: aqua; */
-  font-size: 35px;
-  font-weight: 750;
-  /* width: 1280px; */
-  width: 90%;
-  padding-top:20px ;
-  padding-left: 6%;
-  padding-bottom: 15px;
-  text-align: left;
-  line-height: 36px;
-  position: relative;
-}
-.fly-M::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 6%; 
-  /* right: 5%; */
-  width: 10%; 
-  height: 3px; 
-  background-color: orangered;
-}
-
+ /* ---------Start CSS of Card.js--------- */
  .card-container {
   background-color: rgba(248, 244, 246, 0.89);
   /* background-color: palevioletred; */
@@ -71,11 +16,11 @@
   padding: 0.3rem;
   border-color: #333;
   }
-  @media screen and (width <255px) {
-    #card-container{
-      width: 100%;
+  @media screen and (width <555px) {
+    .card-container{
+      width: 80%;
       margin: 0;
-      background-color: rgb(226, 107, 9);
+      /* background-color: rgb(226, 107, 9); */
     }
   }
   .card {
@@ -91,9 +36,9 @@
     height: 22rem;
     transition: transform 2.5s ease-in-out;
   }
-  @media screen and (width < 155px) {
+  @media screen and (width < 505px) {
     .card {
-      width: 100%;
+      width: 70%;
       margin: 0;
       background-color: rgb(16, 226, 9);
     }
@@ -111,7 +56,6 @@
     /* height: 137px; */
     height: 10rem;
     transition: all;
-    /* position: relative; */
     display: flex;
     transform: none;
     top: 1px;
@@ -121,28 +65,28 @@
     .imageBox {
       width: 100%;
       margin: 0;
-      background-color: rgb(226, 107, 9);
+      /* background-color: rgb(226, 107, 9); */
     }
   }
-  .cardImage{  
+  .S_cardImage{  
     display: flex;
     /* width: 250px; */
     width: 20rem;
+    margin-left: -3rem;
     height: auto;
     object-fit: cover; 
     margin-bottom: 2rem;      
   }
-  .cardImage:hover{ 
+  .S_cardImage:hover{ 
     -webkit-transform: scale(1.5);
     -ms-transform: scale(0.5);
     transform: scale(1.1);
     transition: 1s ease;
   } 
-  .imageBox .imgstiker{
+  .S_imageBox .imgstiker{
     /* width: 46px; */
     width: 3rem;
     height: 2.2rem;
-    /* background-color: #3d1b9c; */
     background-color: #0F3A8D;
     position: absolute;
     top: 2px;
@@ -164,19 +108,19 @@
     position: absolute;
     top: 100px;
     left: 0px;
-    /* bottom: 25px; */
+    /* border: solid 2px red; */
+    margin-bottom: 55px;
     margin-right: 0.5rem;
     padding-left: 0.4rem;
   }
-  /* .cardtitle {
-    width: 175px;
-    border: solid 1px rgb(201, 65, 12);
-    font-size: 28px;
-    font-weight: 750;
-    color: #dd1212;
-    text-transform: capitalize;
-  } */
-  .card-content .cardtitle{
+  @media screen and (width < 535px) {
+    #imgtext {
+      width: 100%;
+      margin: 0;
+      /* background-color: rgb(226, 9, 197); */
+    }
+  }
+  .S_cardtitle{
     margin-top: -1rem;
     padding-left: 2px;
     /* width: 175px; */
@@ -186,27 +130,27 @@
     font-size: 17px;
     text-transform: capitalize;
   }
-  @media screen and (width < 155px) {
-    .cardtitle {
-      width: 10%;
+  /* @media screen and (width < 935px) {
+    .S_cardtitle {
+      width: 80%;
       margin: 0;
       background-color: rgb(226, 9, 197);
     }
-  }
-  .cardIntro {
-    font-size: 24px;
+  } */
+  .S_cardIntro {
+    font-size: 15px;
     font-weight: 500;
     color: rgb(63,63,63);
     text-align: center;
   }
-  @media screen and (width < 155px) {
-    .cardIntro {
-      width: 50%;
+  /* @media screen and (width < 955px) {
+    .S_cardIntro {
+      width: 80%;
       height: auto;
       margin: 0;
       background-color: rgb(226, 9, 56);
     }
-  }
+  } */
   .view{
     width: 100%;
     height: 20px;
@@ -240,6 +184,9 @@
     .readmore:hover{
       color: red;
     }
+    /* ---------End CSS of Card.js--------- */
+
+    /* ---------Start CSS of BlogList.js--------- */
     .l{
       background-color: transparent;
       color: rgb(63,63,63);
@@ -289,10 +236,6 @@
       position: sticky;
       bottom: 0%;
     }
-    .fly-M{
-      font-size: 30px;
-      color: #424242;
-    }
     .blogSearch{
       width: 25%;
       margin-left: -10px;
@@ -320,5 +263,64 @@
     put your mobile device CSS code here
     ...
 } */
+ 
+@media screen and (width < 1115px) {
+  .cardMainList {
+    width: 100%;
+    background-color: lightblue;
+  }
+}
+ @media screen and (width < 832px) {
+  .cardMainList {
+    width: 100%;
+    margin: 0;
+    /* background-color: rgb(226, 107, 9); */
+  }
+/* 
+  #container{
+    width: 90%;
+  } */
+}
+.bloglistFirstPage{
+  width: 100%;
+  justify-content: center;
+  max-width: auto;
+  max-height: auto;
+  align-items: center;
+  margin: 0 auto;
+}
+@media screen and (width < 200px) {
+  .bloglistFirstPage {
+    width: 100%;
+    margin: 0;
+    /* background-color: rgb(226, 107, 9); */
+  }
+}
+
+ .fly-M{
+  /* background-color: aqua; */
+  font-size: 35px;
+  font-weight: 750;
+  /* width: 1280px; */
+  width: 90%;
+  color: #424242;
+  padding-top:20px ;
+  padding-left: 6%;
+  padding-bottom: 15px;
+  text-align: left;
+  line-height: 36px;
+  position: relative;
+}
+.fly-M::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 6%; 
+  /* right: 5%; */
+  width: 10%; 
+  height: 3px; 
+  background-color: orangered;
+}
+
     
-    
+/* --------End CSS of BlogList.js--------- */    
